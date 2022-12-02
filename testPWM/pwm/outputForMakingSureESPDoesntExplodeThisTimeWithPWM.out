@@ -1,0 +1,95 @@
+picocom v3.1
+
+port is        : /dev/ttyUSB0
+flowcontrol    : none
+baudrate is    : 74880
+parity is      : none
+databits are   : 8
+stopbits are   : 1
+escape is      : C-a
+local echo is  : no
+noinit is      : no
+noreset is     : no
+hangup is      : no
+nolock is      : no
+send_cmd is    : sz -vv
+receive_cmd is : rz -vv -E
+imap is        : 
+omap is        : 
+emap is        : crcrlf,delbs,
+logfile is     : none
+initstring     : none
+exit_after is  : not set
+exit is        : no
+
+Type [C-a] [C-h] to see available commands
+Terminal ready
+1152 
+1161 
+1170 
+1179 
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x40100000, len 7052, room 16 
+tail 12
+chksum 0xbb
+ho 0 tail 12 room 4
+load 0x3ffe8408, len 24, room 12 
+tail 12
+chksum 0x02
+ho 0 tail 12 room 4
+load 0x3ffe8420, len 3328, room 12 
+tail 4
+chksum 0xcd
+csum 0xcd
+[0;32mI (54) boot: ESP-IDF v3.4-65-gea598f11-dirty 2nd stage bootloader[0m
+[0;32mI (54) boot: compile time 23:05:00[0m
+[0;32mI (55) boot: SPI Speed      : 40MHz[0m
+[0;32mI (62) boot: SPI Mode       : DOUT[0m
+[0;32mI (68) boot: SPI Flash Size : 1MB[0m
+[0;32mI (74) boot: Partition Table:[0m
+[0;32mI (80) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (91) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (102) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (114) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (125) boot: End of partition table[0m
+[0;32mI (132) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x168d4 ( 92372) map[0m
+[0;32mI (186) esp_image: segment 1: paddr=0x000268ec vaddr=0x402268e4 size=0x05b18 ( 23320) map[0m
+[0;32mI (197) esp_image: segment 2: paddr=0x0002c40c vaddr=0x3ffe8000 size=0x003e0 (   992) load[0m
+[0;32mI (197) esp_image: segment 3: paddr=0x0002c7f4 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (211) esp_image: segment 4: paddr=0x0002c87c vaddr=0x40100080 size=0x04970 ( 18800) load[0m
+[0;32mI (232) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (255) gpio: GPIO[3]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (261) pwm: --- PWM v3.4
+[0m
+Created control pwm task9 
+18 
+27 
+36 
+45 
+54 
+63 
+72 
+81 
+90 
+99 
+108 
+117 
+126 
+135 
+144 
+153 
+162 
+171 
+180 
+189 
+198 
+207 
+216 
+225 
+234 
+243 
+
+Terminating...
+Thanks for using picocom
