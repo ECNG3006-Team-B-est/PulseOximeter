@@ -1,0 +1,5446 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.12.04 17:21:25 =~=~=~=~=~=~=~=~=~=~=~=
+ÕaóQÂ¡qÑK„!!¥g±aú
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x40100000, len 7032, room 16 
+tail 8
+chksum 0x94
+load 0x3ffe8408, len 24, room 0 
+tail 8
+chksum 0x2d
+load 0x3ffe8420, len 3328, room 0 
+tail 0
+chksum 0x5d
+csum 0x5d
+[0;32mI (42) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader[0m
+[0;32mI (43) boot: compile time 17:22:17[0m
+[0;32mI (43) boot: SPI Speed      : 40MHz[0m
+[0;32mI (50) boot: SPI Mode       : DIO[0m
+[0;32mI (56) boot: SPI Flash Size : 1MB[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (68) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (90) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (113) boot: End of partition table[0m
+[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1852c ( 99628) map[0m
+[0;32mI (175) esp_image: segment 1: paddr=0x00028544 vaddr=0x4022853c size=0x061c4 ( 25028) map[0m
+[0;32mI (186) esp_image: segment 2: paddr=0x0002e710 vaddr=0x3ffe8000 size=0x003e0 (   992) load[0m
+[0;32mI (187) esp_image: segment 3: paddr=0x0002eaf8 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (200) esp_image: segment 4: paddr=0x0002eb80 vaddr=0x40100080 size=0x04964 ( 18788) load[0m
+[0;32mI (221) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) main: Starting up
+ [0m
+[0;32mI (244) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (249) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (260) main: ADS1115 initialized!
+ [0m
+[0;32mI (267) gpio: GPIO[3]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (281) pwm: --- PWM v3.4
+[0m
+[0;32mI (287) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (298) main: Analog 0 Pin Value : 5940 
+[0m
+[0;32mI (305) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (316) main: Analog 1 Pin Value : 5871 
+[0m
+[0;32mI (323) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (334) main: Analog 0 Pin Value : 5264 
+[0m
+[0;32mI (341) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (352) main: Analog 1 Pin Value : 4874 
+[0m
+[0;32mI (360) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (370) main: Analog 0 Pin Value : 4086 
+[0m
+[0;32mI (377) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (389) main: Analog 1 Pin Value : 3632 
+[0m
+[0;32mI (396) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (406) main: Analog 0 Pin Value : 4029 
+[0m
+[0;32mI (413) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (425) main: Analog 1 Pin Value : 4320 
+[0m
+[0;32mI (431) main: Index 0, Infrared Trough Value : 3632 
+[0m
+[0;32mI (441) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (451) main: Analog 0 Pin Value : 4930 
+[0m
+[0;32mI (459) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (470) main: Analog 1 Pin Value : 4492 
+[0m
+[0;32mI (476) main: Index 0, Red Trough Value : 4029 
+[0m
+[0;32mI (485) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (496) main: Analog 0 Pin Value : 5295 
+[0m
+[0;32mI (503) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (514) main: Analog 1 Pin Value : 5598 
+[0m
+[0;32mI (521) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (532) main: Analog 0 Pin Value : 5872 
+[0m
+[0;32mI (539) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (550) main: Analog 1 Pin Value : 5526 
+[0m
+[0;32mI (557) main: Index 0, Infrared Peak Value : 5598 
+[0m
+[0;32mI (566) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (576) main: Analog 0 Pin Value : 4837 
+[0m
+[0;32mI (583) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (595) main: Analog 1 Pin Value : 5027 
+[0m
+[0;32mI (601) main: Index 0, Red Peak Value : 5872 
+[0m
+[0;32mI (610) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (621) main: Analog 0 Pin Value : 3611 
+[0m
+[0;32mI (628) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (639) main: Analog 1 Pin Value : 3774 
+[0m
+[0;32mI (646) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (656) main: Analog 0 Pin Value : 4322 
+[0m
+[0;32mI (663) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (675) main: Analog 1 Pin Value : 4471 
+[0m
+[0;32mI (681) main: Index 1, Red Trough Value : 3611 
+[0m
+[0;32mI (689) main: Index 1, Infrared Trough Value : 3774 
+[0m
+[0;32mI (699) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (710) main: Analog 0 Pin Value : 4910 
+[0m
+[0;32mI (717) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (728) main: Analog 1 Pin Value : 5117 
+[0m
+[0;32mI (735) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (746) main: Analog 0 Pin Value : 5633 
+[0m
+[0;32mI (753) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (764) main: Analog 1 Pin Value : 5902 
+[0m
+[0;32mI (771) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (782) main: Analog 0 Pin Value : 5472 
+[0m
+[0;32mI (790) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (801) main: Analog 1 Pin Value : 5094 
+[0m
+[0;32mI (808) main: Index 1, Red Peak Value : 5633 
+[0m
+[0;32mI (816) main: Index 1, Infrared Peak Value : 5902 
+[0m
+[0;32mI (825) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (836) main: Analog 0 Pin Value : 4357 
+[0m
+[0;32mI (843) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (854) main: Analog 1 Pin Value : 3891 
+[0m
+[0;32mI (861) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (872) main: Analog 0 Pin Value : 3866 
+[0m
+[0;32mI (879) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (890) main: Analog 1 Pin Value : 4192 
+[0m
+[0;32mI (897) main: Index 2, Infrared Trough Value : 3891 
+[0m
+[0;32mI (906) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (917) main: Analog 0 Pin Value : 5142 
+[0m
+[0;32mI (924) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (935) main: Analog 1 Pin Value : 4731 
+[0m
+[0;32mI (942) main: Index 2, Red Trough Value : 3866 
+[0m
+[0;32mI (951) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (961) main: Analog 0 Pin Value : 5137 
+[0m
+[0;32mI (968) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (980) main: Analog 1 Pin Value : 5407 
+[0m
+[0;32mI (986) main: Index 2, Red Peak Value : 5142 
+[0m
+[0;32mI (995) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1006) main: Analog 0 Pin Value : 4046 
+[0m
+[0;32mI (1013) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1024) main: Analog 1 Pin Value : 4323 
+[0m
+[0;32mI (1031) main: Index 2, Infrared Peak Value : 5407 
+[0m
+[0;32mI (1040) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1051) main: Analog 0 Pin Value : 4847 
+[0m
+[0;32mI (1058) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1070) main: Analog 1 Pin Value : 4276 
+[0m
+[0;32mI (1076) main: Index 3, Red Trough Value : 4046 
+[0m
+[0;32mI (1085) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1096) main: Analog 0 Pin Value : 5539 
+[0m
+[0;32mI (1103) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1115) main: Analog 1 Pin Value : 5895 
+[0m
+[0;32mI (1121) main: Index 3, Infrared Trough Value : 4276 
+[0m
+[0;32mI (1131) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1142) main: Analog 0 Pin Value : 4650 
+[0m
+[0;32mI (1149) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1161) main: Analog 1 Pin Value : 4892 
+[0m
+[0;32mI (1167) main: Index 3, Red Peak Value : 5539 
+[0m
+[0;32mI (1175) main: Index 3, Infrared Peak Value : 5895 
+[0m
+[0;32mI (1185) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1196) main: Analog 0 Pin Value : 5406 
+[0m
+[0;32mI (1203) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1214) main: Analog 1 Pin Value : 5809 
+[0m
+[0;32mI (1221) main: Index 4, Red Trough Value : 4650 
+[0m
+[0;32mI (1229) main: Index 4, Infrared Trough Value : 4892 
+[0m
+[0;32mI (1239) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1250) main: Analog 0 Pin Value : 5203 
+[0m
+[0;32mI (1257) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1268) main: Analog 1 Pin Value : 4706 
+[0m
+[0;32mI (1275) main: Index 4, Red Peak Value : 5406 
+[0m
+[0;32mI (1283) main: Index 4, Infrared Peak Value : 5809 
+[0m
+[0;32mI (1293) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1303) main: Analog 0 Pin Value : 3691 
+[0m
+[0;32mI (1311) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1322) main: Analog 1 Pin Value : 3863 
+[0m
+[0;32mI (1329) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1340) main: Analog 0 Pin Value : 4376 
+[0m
+[0;32mI (1347) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1358) main: Analog 1 Pin Value : 4619 
+[0m
+[0;32mI (1365) main: Index 5, Red Trough Value : 3691 
+[0m
+[0;32mI (1373) main: Index 5, Infrared Trough Value : 3863 
+[0m
+[0;32mI (1383) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1394) main: Analog 0 Pin Value : 5144 
+[0m
+[0;32mI (1401) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1413) main: Analog 1 Pin Value : 5491 
+[0m
+[0;32mI (1420) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1431) main: Analog 0 Pin Value : 5826 
+[0m
+[0;32mI (1438) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1449) main: Analog 1 Pin Value : 5378 
+[0m
+[0;32mI (1456) main: Index 5, Infrared Peak Value : 5491 
+[0m
+[0;32mI (1465) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1476) main: Analog 0 Pin Value : 4963 
+[0m
+[0;32mI (1483) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1495) main: Analog 1 Pin Value : 5237 
+[0m
+[0;32mI (1501) main: Index 5, Red Peak Value : 5826 
+[0m
+[0;32mI (1510) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1521) main: Analog 0 Pin Value : 3937 
+[0m
+[0;32mI (1528) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1540) main: Analog 1 Pin Value : 4319 
+[0m
+[0;32mI (1547) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1558) main: Analog 0 Pin Value : 4667 
+[0m
+[0;32mI (1565) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1576) main: Analog 1 Pin Value : 4891 
+[0m
+[0;32mI (1583) main: Index 6, Red Trough Value : 3937 
+[0m
+[0;32mI (1591) main: Index 6, Infrared Trough Value : 4319 
+[0m
+[0;32mI (1601) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1612) main: Analog 0 Pin Value : 5566 
+[0m
+[0;32mI (1619) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1631) main: Analog 1 Pin Value : 5911 
+[0m
+[0;32mI (1638) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1649) main: Analog 0 Pin Value : 5282 
+[0m
+[0;32mI (1656) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1667) main: Analog 1 Pin Value : 4824 
+[0m
+[0;32mI (1674) main: Index 6, Red Peak Value : 5566 
+[0m
+[0;32mI (1682) main: Index 6, Infrared Peak Value : 5911 
+[0m
+[0;32mI (1691) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1702) main: Analog 0 Pin Value : 3851 
+[0m
+[0;32mI (1709) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1721) main: Analog 1 Pin Value : 3732 
+[0m
+[0;32mI (1728) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1739) main: Analog 0 Pin Value : 4349 
+[0m
+[0;32mI (1746) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1757) main: Analog 1 Pin Value : 4545 
+[0m
+[0;32mI (1764) main: Index 7, Red Trough Value : 3851 
+[0m
+[0;32mI (1772) main: Index 7, Infrared Trough Value : 3732 
+[0m
+[0;32mI (1782) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1793) main: Analog 0 Pin Value : 5072 
+[0m
+[0;32mI (1800) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1812) main: Analog 1 Pin Value : 5401 
+[0m
+[0;32mI (1819) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1830) main: Analog 0 Pin Value : 5900 
+[0m
+[0;32mI (1837) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1848) main: Analog 1 Pin Value : 5510 
+[0m
+[0;32mI (1856) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1866) main: Analog 0 Pin Value : 4726 
+[0m
+[0;32mI (1874) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1885) main: Analog 1 Pin Value : 4175 
+[0m
+[0;32mI (1891) main: Index 7, Red Peak Value : 5900 
+[0m
+[0;32mI (1900) main: Index 7, Infrared Peak Value : 5510 
+[0m
+[0;32mI (1909) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1920) main: Analog 0 Pin Value : 3776 
+[0m
+[0;32mI (1928) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1939) main: Analog 1 Pin Value : 4254 
+[0m
+[0;32mI (1946) main: Index 8, Infrared Trough Value : 4175 
+[0m
+[0;32mI (1956) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (1967) main: Analog 0 Pin Value : 4936 
+[0m
+[0;32mI (1974) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (1985) main: Analog 1 Pin Value : 4376 
+[0m
+[0;32mI (1992) main: Index 8, Red Trough Value : 3776 
+[0m
+[0;32mI (2001) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2012) main: Analog 0 Pin Value : 5455 
+[0m
+[0;32mI (2019) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2030) main: Analog 1 Pin Value : 5854 
+[0m
+[0;32mI (2038) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2048) main: Analog 0 Pin Value : 5436 
+[0m
+[0;32mI (2056) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2067) main: Analog 1 Pin Value : 4955 
+[0m
+[0;32mI (2073) main: Index 8, Red Peak Value : 5455 
+[0m
+[0;32mI (2082) main: Index 8, Infrared Peak Value : 5854 
+[0m
+[0;32mI (2091) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2102) main: Analog 0 Pin Value : 3950 
+[0m
+[0;32mI (2109) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2121) main: Analog 1 Pin Value : 3596 
+[0m
+[0;32mI (2128) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2139) main: Analog 0 Pin Value : 4296 
+[0m
+[0;32mI (2146) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2157) main: Analog 1 Pin Value : 4490 
+[0m
+[0;32mI (2164) main: Index 9, Red Trough Value : 3950 
+[0m
+[0;32mI (2172) main: Index 9, Infrared Trough Value : 3596 
+[0m
+[0;32mI (2182) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2193) main: Analog 0 Pin Value : 5038 
+[0m
+[0;32mI (2200) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2212) main: Analog 1 Pin Value : 5344 
+[0m
+[0;32mI (2219) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2230) main: Analog 0 Pin Value : 5917 
+[0m
+[0;32mI (2237) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2248) main: Analog 1 Pin Value : 5647 
+[0m
+[0;32mI (2255) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2266) main: Analog 0 Pin Value : 4844 
+[0m
+[0;32mI (2273) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2285) main: Analog 1 Pin Value : 4313 
+[0m
+[0;32mI (2291) main: Index 9, Red Peak Value : 5917 
+[0m
+[0;32mI (2300) main: Index 9, Infrared Peak Value : 5647 
+[0m
+[0;32mI (2309) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2320) main: Analog 0 Pin Value : 3720 
+[0m
+[0;32mI (2327) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2338) main: Analog 1 Pin Value : 4153 
+[0m
+[0;32mI (2346) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2356) main: Analog 0 Pin Value : 4495 
+[0m
+[0;32mI (2364) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2375) main: Analog 1 Pin Value : 4683 
+[0m
+[0;32mI (2382) main: Index 10, Red Trough Value : 3720 
+[0m
+[0;32mI (2390) main: Index 10, Infrared Trough Value : 4153 
+[0m
+[0;32mI (2400) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2411) main: Analog 0 Pin Value : 4939 
+[0m
+[0;32mI (2418) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2429) main: Analog 1 Pin Value : 5049 
+[0m
+[0;32mI (2437) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2447) main: Analog 0 Pin Value : 4917 
+[0m
+[0;32mI (2455) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2466) main: Analog 1 Pin Value : 4785 
+[0m
+[0;32mI (2473) main: Index 10, Red Peak Value : 4939 
+[0m
+[0;32mI (2481) main: Index 10, Infrared Peak Value : 5049 
+[0m
+[0;32mI (2491) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2501) main: Analog 0 Pin Value : 4473 
+[0m
+[0;32mI (2509) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2520) main: Analog 1 Pin Value : 4443 
+[0m
+[0;32mI (2527) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2538) main: Analog 0 Pin Value : 4572 
+[0m
+[0;32mI (2545) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2557) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (2563) main: Index 11, Red Trough Value : 4473 
+[0m
+[0;32mI (2572) main: Index 11, Infrared Trough Value : 4443 
+[0m
+[0;32mI (2582) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2592) main: Analog 0 Pin Value : 4746 
+[0m
+[0;32mI (2600) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2611) main: Analog 1 Pin Value : 4842 
+[0m
+[0;32mI (2619) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2630) main: Analog 0 Pin Value : 5014 
+[0m
+[0;32mI (2637) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2648) main: Analog 1 Pin Value : 5129 
+[0m
+[0;32mI (2656) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2666) main: Analog 0 Pin Value : 4941 
+[0m
+[0;32mI (2674) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2685) main: Analog 1 Pin Value : 4524 
+[0m
+[0;32mI (2692) main: Index 11, Red Peak Value : 5014 
+[0m
+[0;32mI (2700) main: Index 11, Infrared Peak Value : 5129 
+[0m
+[0;32mI (2709) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2720) main: Analog 0 Pin Value : 3969 
+[0m
+[0;32mI (2727) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2739) main: Analog 1 Pin Value : 4302 
+[0m
+[0;32mI (2746) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2757) main: Analog 0 Pin Value : 4654 
+[0m
+[0;32mI (2764) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2776) main: Analog 1 Pin Value : 4900 
+[0m
+[0;32mI (2782) main: Index 12, Red Trough Value : 3969 
+[0m
+[0;32mI (2791) main: Index 12, Infrared Trough Value : 4302 
+[0m
+[0;32mI (2801) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2811) main: Analog 0 Pin Value : 5672 
+[0m
+[0;32mI (2819) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2830) main: Analog 1 Pin Value : 5874 
+[0m
+[0;32mI (2837) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2848) main: Analog 0 Pin Value : 5177 
+[0m
+[0;32mI (2855) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2867) main: Analog 1 Pin Value : 4702 
+[0m
+[0;32mI (2873) main: Index 12, Red Peak Value : 5672 
+[0m
+[0;32mI (2882) main: Index 12, Infrared Peak Value : 5874 
+[0m
+[0;32mI (2891) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2902) main: Analog 0 Pin Value : 3711 
+[0m
+[0;32mI (2909) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2920) main: Analog 1 Pin Value : 4009 
+[0m
+[0;32mI (2928) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2938) main: Analog 0 Pin Value : 4396 
+[0m
+[0;32mI (2946) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (2957) main: Analog 1 Pin Value : 4587 
+[0m
+[0;32mI (2964) main: Index 13, Red Trough Value : 3711 
+[0m
+[0;32mI (2972) main: Index 13, Infrared Trough Value : 4009 
+[0m
+[0;32mI (2982) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (2993) main: Analog 0 Pin Value : 4818 
+[0m
+[0;32mI (3000) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3012) main: Analog 1 Pin Value : 4916 
+[0m
+[0;32mI (3019) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3029) main: Analog 0 Pin Value : 4954 
+[0m
+[0;32mI (3037) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3048) main: Analog 1 Pin Value : 4841 
+[0m
+[0;32mI (3055) main: Index 13, Infrared Peak Value : 4916 
+[0m
+[0;32mI (3064) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3075) main: Analog 0 Pin Value : 4735 
+[0m
+[0;32mI (3082) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3094) main: Analog 1 Pin Value : 4818 
+[0m
+[0;32mI (3100) main: Index 13, Red Peak Value : 4954 
+[0m
+[0;32mI (3110) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3121) main: Analog 0 Pin Value : 4544 
+[0m
+[0;32mI (3128) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3139) main: Analog 1 Pin Value : 4579 
+[0m
+[0;32mI (3147) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3157) main: Analog 0 Pin Value : 4672 
+[0m
+[0;32mI (3165) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3176) main: Analog 1 Pin Value : 4730 
+[0m
+[0;32mI (3183) main: Index 14, Red Trough Value : 4544 
+[0m
+[0;32mI (3191) main: Index 14, Infrared Trough Value : 4579 
+[0m
+[0;32mI (3201) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3212) main: Analog 0 Pin Value : 4967 
+[0m
+[0;32mI (3219) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3230) main: Analog 1 Pin Value : 4956 
+[0m
+[0;32mI (3238) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3248) main: Analog 0 Pin Value : 4765 
+[0m
+[0;32mI (3256) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3267) main: Analog 1 Pin Value : 4692 
+[0m
+[0;32mI (3274) main: Index 14, Red Peak Value : 4967 
+[0m
+[0;32mI (3282) main: Index 14, Infrared Peak Value : 4956 
+[0m
+[0;32mI (3292) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3302) main: Analog 0 Pin Value : 4202 
+[0m
+[0;32mI (3310) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3321) main: Analog 1 Pin Value : 4199 
+[0m
+[0;32mI (3328) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3339) main: Analog 0 Pin Value : 4514 
+[0m
+[0;32mI (3346) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3358) main: Analog 1 Pin Value : 4777 
+[0m
+[0;32mI (3364) main: Index 15, Red Trough Value : 4202 
+[0m
+[0;32mI (3373) main: Index 15, Infrared Trough Value : 4199 
+[0m
+[0;32mI (3383) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3394) main: Analog 0 Pin Value : 5450 
+[0m
+[0;32mI (3401) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3412) main: Analog 1 Pin Value : 5847 
+[0m
+[0;32mI (3419) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3430) main: Analog 0 Pin Value : 5398 
+[0m
+[0;32mI (3437) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3449) main: Analog 1 Pin Value : 4898 
+[0m
+[0;32mI (3455) main: Index 15, Red Peak Value : 5450 
+[0m
+[0;32mI (3464) main: Index 15, Infrared Peak Value : 5847 
+[0m
+[0;32mI (3473) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3484) main: Analog 0 Pin Value : 3861 
+[0m
+[0;32mI (3491) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3503) main: Analog 1 Pin Value : 3852 
+[0m
+[0;32mI (3510) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3521) main: Analog 0 Pin Value : 4339 
+[0m
+[0;32mI (3528) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3539) main: Analog 1 Pin Value : 4479 
+[0m
+[0;32mI (3546) main: Index 16, Red Trough Value : 3861 
+[0m
+[0;32mI (3554) main: Index 16, Infrared Trough Value : 3852 
+[0m
+[0;32mI (3564) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3575) main: Analog 0 Pin Value : 4764 
+[0m
+[0;32mI (3582) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3594) main: Analog 1 Pin Value : 4866 
+[0m
+[0;32mI (3601) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3612) main: Analog 0 Pin Value : 4979 
+[0m
+[0;32mI (3619) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3630) main: Analog 1 Pin Value : 4889 
+[0m
+[0;32mI (3638) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3648) main: Analog 0 Pin Value : 4664 
+[0m
+[0;32mI (3656) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3667) main: Analog 1 Pin Value : 4498 
+[0m
+[0;32mI (3674) main: Index 16, Red Peak Value : 4979 
+[0m
+[0;32mI (3682) main: Index 16, Infrared Peak Value : 4889 
+[0m
+[0;32mI (3692) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3702) main: Analog 0 Pin Value : 4486 
+[0m
+[0;32mI (3710) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3721) main: Analog 1 Pin Value : 4573 
+[0m
+[0;32mI (3728) main: Index 17, Infrared Trough Value : 4498 
+[0m
+[0;32mI (3737) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3748) main: Analog 0 Pin Value : 4690 
+[0m
+[0;32mI (3755) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3767) main: Analog 1 Pin Value : 4510 
+[0m
+[0;32mI (3773) main: Index 17, Red Trough Value : 4486 
+[0m
+[0;32mI (3782) main: Index 17, Infrared Peak Value : 4573 
+[0m
+[0;32mI (3792) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3802) main: Analog 0 Pin Value : 4506 
+[0m
+[0;32mI (3810) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3821) main: Analog 1 Pin Value : 4560 
+[0m
+[0;32mI (3828) main: Index 17, Red Peak Value : 4690 
+[0m
+[0;32mI (3836) main: Index 18, Infrared Trough Value : 4510 
+[0m
+[0;32mI (3846) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3857) main: Analog 0 Pin Value : 4682 
+[0m
+[0;32mI (3864) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3875) main: Analog 1 Pin Value : 4743 
+[0m
+[0;32mI (3882) main: Index 18, Red Trough Value : 4506 
+[0m
+[0;32mI (3891) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3902) main: Analog 0 Pin Value : 4322 
+[0m
+[0;32mI (3909) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3920) main: Analog 1 Pin Value : 4354 
+[0m
+[0;32mI (3927) main: Index 18, Red Peak Value : 4682 
+[0m
+[0;32mI (3935) main: Index 18, Infrared Peak Value : 4743 
+[0m
+[0;32mI (3945) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (3956) main: Analog 0 Pin Value : 4702 
+[0m
+[0;32mI (3963) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (3974) main: Analog 1 Pin Value : 4952 
+[0m
+[0;32mI (3981) main: Index 19, Red Trough Value : 4322 
+[0m
+[0;32mI (3989) main: Index 19, Infrared Trough Value : 4354 
+[0m
+[0;32mI (3999) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4010) main: Analog 0 Pin Value : 5779 
+[0m
+[0;32mI (4017) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4029) main: Analog 1 Pin Value : 5769 
+[0m
+[0;32mI (4036) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4047) main: Analog 0 Pin Value : 4997 
+[0m
+[0;32mI (4054) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4065) main: Analog 1 Pin Value : 4511 
+[0m
+[0;32mI (4072) main: Index 19, Red Peak Value : 5779 
+[0m
+[0;32mI (4080) main: Index 19, Infrared Peak Value : 5769 
+[0m
+[0;32mI (4090) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4100) main: Analog 0 Pin Value : 3829 
+[0m
+[0;32mI (4108) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4119) main: Analog 1 Pin Value : 4240 
+[0m
+[0;32mI (4126) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4137) main: Analog 0 Pin Value : 4448 
+[0m
+[0;32mI (4144) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4156) main: Analog 1 Pin Value : 4647 
+[0m
+[0;32mI (4162) main: Index 20, Red Trough Value : 3829 
+[0m
+[0;32mI (4171) main: Index 20, Infrared Trough Value : 4240 
+[0m
+[0;32mI (4181) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4192) main: Analog 0 Pin Value : 4854 
+[0m
+[0;32mI (4199) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4210) main: Analog 1 Pin Value : 4960 
+[0m
+[0;32mI (4218) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4228) main: Analog 0 Pin Value : 4899 
+[0m
+[0;32mI (4235) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4247) main: Analog 1 Pin Value : 4775 
+[0m
+[0;32mI (4253) main: Index 20, Infrared Peak Value : 4960 
+[0m
+[0;32mI (4263) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4274) main: Analog 0 Pin Value : 4766 
+[0m
+[0;32mI (4281) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4293) main: Analog 1 Pin Value : 4872 
+[0m
+[0;32mI (4299) main: Index 20, Red Peak Value : 4899 
+[0m
+[0;32mI (4307) main: Index 21, Infrared Trough Value : 4775 
+[0m
+[0;32mI (4317) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4328) main: Analog 0 Pin Value : 4908 
+[0m
+[0;32mI (4336) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4348) main: Analog 1 Pin Value : 4783 
+[0m
+[0;32mI (4354) main: Index 21, Red Trough Value : 4766 
+[0m
+[0;32mI (4363) main: Index 21, Infrared Peak Value : 4872 
+[0m
+[0;32mI (4372) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4383) main: Analog 0 Pin Value : 4447 
+[0m
+[0;32mI (4390) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4402) main: Analog 1 Pin Value : 4455 
+[0m
+[0;32mI (4408) main: Index 21, Red Peak Value : 4908 
+[0m
+[0;32mI (4417) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4428) main: Analog 0 Pin Value : 4966 
+[0m
+[0;32mI (4435) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4447) main: Analog 1 Pin Value : 4874 
+[0m
+[0;32mI (4453) main: Index 22, Red Trough Value : 4447 
+[0m
+[0;32mI (4462) main: Index 22, Infrared Trough Value : 4455 
+[0m
+[0;32mI (4472) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4483) main: Analog 0 Pin Value : 4556 
+[0m
+[0;32mI (4490) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4501) main: Analog 1 Pin Value : 4328 
+[0m
+[0;32mI (4508) main: Index 22, Red Peak Value : 4966 
+[0m
+[0;32mI (4516) main: Index 22, Infrared Peak Value : 4874 
+[0m
+[0;32mI (4526) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4537) main: Analog 0 Pin Value : 4320 
+[0m
+[0;32mI (4544) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4555) main: Analog 1 Pin Value : 4522 
+[0m
+[0;32mI (4562) main: Index 23, Infrared Trough Value : 4328 
+[0m
+[0;32mI (4572) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4583) main: Analog 0 Pin Value : 4152 
+[0m
+[0;32mI (4590) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4601) main: Analog 1 Pin Value : 3622 
+[0m
+[0;32mI (4607) main: Index 23, Infrared Peak Value : 4522 
+[0m
+[0;32mI (4617) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4628) main: Analog 0 Pin Value : 5735 
+[0m
+[0;32mI (4635) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4647) main: Analog 1 Pin Value : 5245 
+[0m
+[0;32mI (4653) main: Index 23, Red Trough Value : 4152 
+[0m
+[0;32mI (4662) main: Index 24, Infrared Trough Value : 3622 
+[0m
+[0;32mI (4672) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4682) main: Analog 0 Pin Value : 4132 
+[0m
+[0;32mI (4690) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4701) main: Analog 1 Pin Value : 3911 
+[0m
+[0;32mI (4707) main: Index 23, Red Peak Value : 5735 
+[0m
+[0;32mI (4716) main: Index 24, Infrared Peak Value : 5245 
+[0m
+[0;32mI (4725) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4736) main: Analog 0 Pin Value : 4344 
+[0m
+[0;32mI (4743) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4755) main: Analog 1 Pin Value : 4536 
+[0m
+[0;32mI (4761) main: Index 24, Red Trough Value : 4132 
+[0m
+[0;32mI (4770) main: Index 25, Infrared Trough Value : 3911 
+[0m
+[0;32mI (4780) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4791) main: Analog 0 Pin Value : 4821 
+[0m
+[0;32mI (4798) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4809) main: Analog 1 Pin Value : 4961 
+[0m
+[0;32mI (4817) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4827) main: Analog 0 Pin Value : 5038 
+[0m
+[0;32mI (4835) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4846) main: Analog 1 Pin Value : 4901 
+[0m
+[0;32mI (4853) main: Index 25, Infrared Peak Value : 4961 
+[0m
+[0;32mI (4862) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4873) main: Analog 0 Pin Value : 4722 
+[0m
+[0;32mI (4880) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4891) main: Analog 1 Pin Value : 4795 
+[0m
+[0;32mI (4898) main: Index 24, Red Peak Value : 5038 
+[0m
+[0;32mI (4907) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4918) main: Analog 0 Pin Value : 4509 
+[0m
+[0;32mI (4925) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4936) main: Analog 1 Pin Value : 4555 
+[0m
+[0;32mI (4944) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (4954) main: Analog 0 Pin Value : 4632 
+[0m
+[0;32mI (4962) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (4973) main: Analog 1 Pin Value : 4713 
+[0m
+[0;32mI (4980) main: Index 25, Red Trough Value : 4509 
+[0m
+[0;32mI (4988) main: Index 26, Infrared Trough Value : 4555 
+[0m
+[0;32mI (4998) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5009) main: Analog 0 Pin Value : 5179 
+[0m
+[0;32mI (5016) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5028) main: Analog 1 Pin Value : 5433 
+[0m
+[0;32mI (5035) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5046) main: Analog 0 Pin Value : 5157 
+[0m
+[0;32mI (5053) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5064) main: Analog 1 Pin Value : 4717 
+[0m
+[0;32mI (5071) main: Index 25, Red Peak Value : 5179 
+[0m
+[0;32mI (5079) main: Index 26, Infrared Peak Value : 5433 
+[0m
+[0;32mI (5089) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5100) main: Analog 0 Pin Value : 3687 
+[0m
+[0;32mI (5107) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5118) main: Analog 1 Pin Value : 4085 
+[0m
+[0;32mI (5125) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5136) main: Analog 0 Pin Value : 4485 
+[0m
+[0;32mI (5143) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5155) main: Analog 1 Pin Value : 4739 
+[0m
+[0;32mI (5161) main: Index 26, Red Trough Value : 3687 
+[0m
+[0;32mI (5170) main: Index 27, Infrared Trough Value : 4085 
+[0m
+[0;32mI (5180) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5191) main: Analog 0 Pin Value : 5372 
+[0m
+[0;32mI (5198) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5209) main: Analog 1 Pin Value : 5765 
+[0m
+[0;32mI (5217) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5227) main: Analog 0 Pin Value : 5537 
+[0m
+[0;32mI (5235) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5246) main: Analog 1 Pin Value : 5070 
+[0m
+[0;32mI (5253) main: Index 27, Infrared Peak Value : 5765 
+[0m
+[0;32mI (5262) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5273) main: Analog 0 Pin Value : 5112 
+[0m
+[0;32mI (5280) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5291) main: Analog 1 Pin Value : 5386 
+[0m
+[0;32mI (5298) main: Index 26, Red Peak Value : 5537 
+[0m
+[0;32mI (5306) main: Index 28, Infrared Trough Value : 5070 
+[0m
+[0;32mI (5316) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5327) main: Analog 0 Pin Value : 5570 
+[0m
+[0;32mI (5334) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5346) main: Analog 1 Pin Value : 5145 
+[0m
+[0;32mI (5352) main: Index 27, Red Trough Value : 5112 
+[0m
+[0;32mI (5361) main: Index 28, Infrared Peak Value : 5386 
+[0m
+[0;32mI (5370) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5382) main: Analog 0 Pin Value : 4368 
+[0m
+[0;32mI (5389) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5401) main: Analog 1 Pin Value : 4223 
+[0m
+[0;32mI (5407) main: Index 27, Red Peak Value : 5570 
+[0m
+[0;32mI (5416) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5427) main: Analog 0 Pin Value : 5345 
+[0m
+[0;32mI (5434) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5446) main: Analog 1 Pin Value : 5275 
+[0m
+[0;32mI (5452) main: Index 28, Red Trough Value : 4368 
+[0m
+[0;32mI (5461) main: Index 29, Infrared Trough Value : 4223 
+[0m
+[0;32mI (5470) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5481) main: Analog 0 Pin Value : 4579 
+[0m
+[0;32mI (5488) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5500) main: Analog 1 Pin Value : 4230 
+[0m
+[0;32mI (5506) main: Index 28, Red Peak Value : 5345 
+[0m
+[0;32mI (5515) main: Index 29, Infrared Peak Value : 5275 
+[0m
+[0;32mI (5524) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5535) main: Analog 0 Pin Value : 4320 
+[0m
+[0;32mI (5542) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5554) main: Analog 1 Pin Value : 4478 
+[0m
+[0;32mI (5560) main: Index 30, Infrared Trough Value : 4230 
+[0m
+[0;32mI (5570) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5581) main: Analog 0 Pin Value : 4416 
+[0m
+[0;32mI (5588) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5600) main: Analog 1 Pin Value : 3977 
+[0m
+[0;32mI (5606) main: Index 29, Red Trough Value : 4320 
+[0m
+[0;32mI (5615) main: Index 30, Infrared Peak Value : 4478 
+[0m
+[0;32mI (5625) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5635) main: Analog 0 Pin Value : 4330 
+[0m
+[0;32mI (5643) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5654) main: Analog 1 Pin Value : 4541 
+[0m
+[0;32mI (5660) main: Index 29, Red Peak Value : 4416 
+[0m
+[0;32mI (5669) main: Index 31, Infrared Trough Value : 3977 
+[0m
+[0;32mI (5679) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5690) main: Analog 0 Pin Value : 4600 
+[0m
+[0;32mI (5697) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5708) main: Analog 1 Pin Value : 4633 
+[0m
+[0;32mI (5715) main: Index 30, Red Trough Value : 4330 
+[0m
+[0;32mI (5724) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5735) main: Analog 0 Pin Value : 4533 
+[0m
+[0;32mI (5742) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5753) main: Analog 1 Pin Value : 4587 
+[0m
+[0;32mI (5760) main: Index 30, Red Peak Value : 4600 
+[0m
+[0;32mI (5768) main: Index 31, Infrared Peak Value : 4633 
+[0m
+[0;32mI (5778) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5789) main: Analog 0 Pin Value : 4579 
+[0m
+[0;32mI (5796) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5807) main: Analog 1 Pin Value : 4621 
+[0m
+[0;32mI (5814) main: Index 31, Red Trough Value : 4533 
+[0m
+[0;32mI (5822) main: Index 32, Infrared Trough Value : 4587 
+[0m
+[0;32mI (5832) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5843) main: Analog 0 Pin Value : 4654 
+[0m
+[0;32mI (5850) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5862) main: Analog 1 Pin Value : 4660 
+[0m
+[0;32mI (5869) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5880) main: Analog 0 Pin Value : 4606 
+[0m
+[0;32mI (5887) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5898) main: Analog 1 Pin Value : 4567 
+[0m
+[0;32mI (5905) main: Index 31, Red Peak Value : 4654 
+[0m
+[0;32mI (5913) main: Index 32, Infrared Peak Value : 4660 
+[0m
+[0;32mI (5923) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5934) main: Analog 0 Pin Value : 4499 
+[0m
+[0;32mI (5941) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5952) main: Analog 1 Pin Value : 4582 
+[0m
+[0;32mI (5959) main: Index 33, Infrared Trough Value : 4567 
+[0m
+[0;32mI (5969) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (5980) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (5987) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (5998) main: Analog 1 Pin Value : 4556 
+[0m
+[0;32mI (6005) main: Index 32, Red Trough Value : 4499 
+[0m
+[0;32mI (6013) main: Index 33, Infrared Peak Value : 4582 
+[0m
+[0;32mI (6023) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6034) main: Analog 0 Pin Value : 4509 
+[0m
+[0;32mI (6041) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6052) main: Analog 1 Pin Value : 4575 
+[0m
+[0;32mI (6059) main: Index 32, Red Peak Value : 4627 
+[0m
+[0;32mI (6067) main: Index 34, Infrared Trough Value : 4556 
+[0m
+[0;32mI (6077) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6088) main: Analog 0 Pin Value : 4570 
+[0m
+[0;32mI (6095) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6107) main: Analog 1 Pin Value : 4622 
+[0m
+[0;32mI (6113) main: Index 33, Red Trough Value : 4509 
+[0m
+[0;32mI (6122) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6133) main: Analog 0 Pin Value : 4528 
+[0m
+[0;32mI (6140) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6152) main: Analog 1 Pin Value : 4580 
+[0m
+[0;32mI (6158) main: Index 33, Red Peak Value : 4570 
+[0m
+[0;32mI (6167) main: Index 34, Infrared Peak Value : 4622 
+[0m
+[0;32mI (6176) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6187) main: Analog 0 Pin Value : 4562 
+[0m
+[0;32mI (6194) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6206) main: Analog 1 Pin Value : 4600 
+[0m
+[0;32mI (6212) main: Index 34, Red Trough Value : 4528 
+[0m
+[0;32mI (6221) main: Index 35, Infrared Trough Value : 4580 
+[0m
+[0;32mI (6231) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6242) main: Analog 0 Pin Value : 4657 
+[0m
+[0;32mI (6249) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6260) main: Analog 1 Pin Value : 4667 
+[0m
+[0;32mI (6267) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6278) main: Analog 0 Pin Value : 4643 
+[0m
+[0;32mI (6285) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6297) main: Analog 1 Pin Value : 4592 
+[0m
+[0;32mI (6303) main: Index 34, Red Peak Value : 4657 
+[0m
+[0;32mI (6312) main: Index 35, Infrared Peak Value : 4667 
+[0m
+[0;32mI (6321) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6332) main: Analog 0 Pin Value : 4491 
+[0m
+[0;32mI (6339) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6351) main: Analog 1 Pin Value : 4575 
+[0m
+[0;32mI (6358) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6369) main: Analog 0 Pin Value : 4583 
+[0m
+[0;32mI (6376) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6387) main: Analog 1 Pin Value : 4592 
+[0m
+[0;32mI (6394) main: Index 35, Red Trough Value : 4491 
+[0m
+[0;32mI (6402) main: Index 36, Infrared Trough Value : 4575 
+[0m
+[0;32mI (6412) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6423) main: Analog 0 Pin Value : 4601 
+[0m
+[0;32mI (6430) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6441) main: Analog 1 Pin Value : 4671 
+[0m
+[0;32mI (6449) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6459) main: Analog 0 Pin Value : 4658 
+[0m
+[0;32mI (6467) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6478) main: Analog 1 Pin Value : 4634 
+[0m
+[0;32mI (6485) main: Index 36, Infrared Peak Value : 4671 
+[0m
+[0;32mI (6494) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6505) main: Analog 0 Pin Value : 4595 
+[0m
+[0;32mI (6513) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6524) main: Analog 1 Pin Value : 4649 
+[0m
+[0;32mI (6531) main: Index 35, Red Peak Value : 4658 
+[0m
+[0;32mI (6539) main: Index 37, Infrared Trough Value : 4634 
+[0m
+[0;32mI (6549) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6560) main: Analog 0 Pin Value : 4642 
+[0m
+[0;32mI (6567) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6579) main: Analog 1 Pin Value : 4635 
+[0m
+[0;32mI (6585) main: Index 36, Red Trough Value : 4595 
+[0m
+[0;32mI (6594) main: Index 37, Infrared Peak Value : 4649 
+[0m
+[0;32mI (6603) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6614) main: Analog 0 Pin Value : 4529 
+[0m
+[0;32mI (6621) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6632) main: Analog 1 Pin Value : 4555 
+[0m
+[0;32mI (6639) main: Index 36, Red Peak Value : 4642 
+[0m
+[0;32mI (6648) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6659) main: Analog 0 Pin Value : 4667 
+[0m
+[0;32mI (6666) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6677) main: Analog 1 Pin Value : 4656 
+[0m
+[0;32mI (6684) main: Index 37, Red Trough Value : 4529 
+[0m
+[0;32mI (6692) main: Index 38, Infrared Trough Value : 4555 
+[0m
+[0;32mI (6702) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6713) main: Analog 0 Pin Value : 4549 
+[0m
+[0;32mI (6720) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6732) main: Analog 1 Pin Value : 4538 
+[0m
+[0;32mI (6738) main: Index 37, Red Peak Value : 4667 
+[0m
+[0;32mI (6746) main: Index 38, Infrared Peak Value : 4656 
+[0m
+[0;32mI (6756) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6767) main: Analog 0 Pin Value : 4524 
+[0m
+[0;32mI (6774) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6785) main: Analog 1 Pin Value : 4591 
+[0m
+[0;32mI (6792) main: Index 39, Infrared Trough Value : 4538 
+[0m
+[0;32mI (6803) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6814) main: Analog 0 Pin Value : 4591 
+[0m
+[0;32mI (6821) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6832) main: Analog 1 Pin Value : 4538 
+[0m
+[0;32mI (6839) main: Index 38, Red Trough Value : 4524 
+[0m
+[0;32mI (6847) main: Index 39, Infrared Peak Value : 4591 
+[0m
+[0;32mI (6857) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6868) main: Analog 0 Pin Value : 4527 
+[0m
+[0;32mI (6875) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6887) main: Analog 1 Pin Value : 4597 
+[0m
+[0;32mI (6893) main: Index 38, Red Peak Value : 4591 
+[0m
+[0;32mI (6901) main: Index 40, Infrared Trough Value : 4538 
+[0m
+[0;32mI (6911) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6922) main: Analog 0 Pin Value : 4582 
+[0m
+[0;32mI (6929) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6941) main: Analog 1 Pin Value : 4638 
+[0m
+[0;32mI (6947) main: Index 39, Red Trough Value : 4527 
+[0m
+[0;32mI (6957) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (6967) main: Analog 0 Pin Value : 4533 
+[0m
+[0;32mI (6975) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (6986) main: Analog 1 Pin Value : 4589 
+[0m
+[0;32mI (6992) main: Index 39, Red Peak Value : 4582 
+[0m
+[0;32mI (7001) main: Index 40, Infrared Peak Value : 4638 
+[0m
+[0;32mI (7010) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7021) main: Analog 0 Pin Value : 4568 
+[0m
+[0;32mI (7028) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7040) main: Analog 1 Pin Value : 4616 
+[0m
+[0;32mI (7046) main: Index 40, Red Trough Value : 4533 
+[0m
+[0;32mI (7055) main: Index 41, Infrared Trough Value : 4589 
+[0m
+[0;32mI (7065) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7076) main: Analog 0 Pin Value : 4665 
+[0m
+[0;32mI (7083) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7094) main: Analog 1 Pin Value : 4655 
+[0m
+[0;32mI (7102) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7112) main: Analog 0 Pin Value : 4586 
+[0m
+[0;32mI (7120) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7131) main: Analog 1 Pin Value : 4560 
+[0m
+[0;32mI (7138) main: Index 40, Red Peak Value : 4665 
+[0m
+[0;32mI (7146) main: Index 41, Infrared Peak Value : 4655 
+[0m
+[0;32mI (7155) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7166) main: Analog 0 Pin Value : 4518 
+[0m
+[0;32mI (7173) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7185) main: Analog 1 Pin Value : 4571 
+[0m
+[0;32mI (7191) main: Index 42, Infrared Trough Value : 4560 
+[0m
+[0;32mI (7201) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7212) main: Analog 0 Pin Value : 4619 
+[0m
+[0;32mI (7219) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7231) main: Analog 1 Pin Value : 4547 
+[0m
+[0;32mI (7237) main: Index 41, Red Trough Value : 4518 
+[0m
+[0;32mI (7246) main: Index 42, Infrared Peak Value : 4571 
+[0m
+[0;32mI (7256) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7266) main: Analog 0 Pin Value : 4520 
+[0m
+[0;32mI (7274) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7285) main: Analog 1 Pin Value : 4570 
+[0m
+[0;32mI (7292) main: Index 41, Red Peak Value : 4619 
+[0m
+[0;32mI (7300) main: Index 43, Infrared Trough Value : 4547 
+[0m
+[0;32mI (7310) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7321) main: Analog 0 Pin Value : 4572 
+[0m
+[0;32mI (7328) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7339) main: Analog 1 Pin Value : 4618 
+[0m
+[0;32mI (7346) main: Index 42, Red Trough Value : 4520 
+[0m
+[0;32mI (7355) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7366) main: Analog 0 Pin Value : 4513 
+[0m
+[0;32mI (7373) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7384) main: Analog 1 Pin Value : 4586 
+[0m
+[0;32mI (7391) main: Index 42, Red Peak Value : 4572 
+[0m
+[0;32mI (7399) main: Index 43, Infrared Peak Value : 4618 
+[0m
+[0;32mI (7409) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7420) main: Analog 0 Pin Value : 4564 
+[0m
+[0;32mI (7427) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7438) main: Analog 1 Pin Value : 4615 
+[0m
+[0;32mI (7445) main: Index 43, Red Trough Value : 4513 
+[0m
+[0;32mI (7453) main: Index 44, Infrared Trough Value : 4586 
+[0m
+[0;32mI (7463) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7474) main: Analog 0 Pin Value : 4652 
+[0m
+[0;32mI (7481) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7493) main: Analog 1 Pin Value : 4667 
+[0m
+[0;32mI (7500) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7511) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (7518) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7529) main: Analog 1 Pin Value : 4589 
+[0m
+[0;32mI (7536) main: Index 43, Red Peak Value : 4652 
+[0m
+[0;32mI (7544) main: Index 44, Infrared Peak Value : 4667 
+[0m
+[0;32mI (7554) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7564) main: Analog 0 Pin Value : 4509 
+[0m
+[0;32mI (7572) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7583) main: Analog 1 Pin Value : 4563 
+[0m
+[0;32mI (7590) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7601) main: Analog 0 Pin Value : 4573 
+[0m
+[0;32mI (7608) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7620) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (7626) main: Index 44, Red Trough Value : 4509 
+[0m
+[0;32mI (7635) main: Index 45, Infrared Trough Value : 4563 
+[0m
+[0;32mI (7645) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7656) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (7663) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7674) main: Analog 1 Pin Value : 4661 
+[0m
+[0;32mI (7682) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7692) main: Analog 0 Pin Value : 4662 
+[0m
+[0;32mI (7699) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7711) main: Analog 1 Pin Value : 4639 
+[0m
+[0;32mI (7717) main: Index 45, Infrared Peak Value : 4661 
+[0m
+[0;32mI (7727) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7738) main: Analog 0 Pin Value : 4587 
+[0m
+[0;32mI (7745) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7757) main: Analog 1 Pin Value : 4665 
+[0m
+[0;32mI (7763) main: Index 44, Red Peak Value : 4662 
+[0m
+[0;32mI (7771) main: Index 46, Infrared Trough Value : 4639 
+[0m
+[0;32mI (7781) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7792) main: Analog 0 Pin Value : 4663 
+[0m
+[0;32mI (7799) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7811) main: Analog 1 Pin Value : 4630 
+[0m
+[0;32mI (7817) main: Index 45, Red Trough Value : 4587 
+[0m
+[0;32mI (7826) main: Index 46, Infrared Peak Value : 4665 
+[0m
+[0;32mI (7835) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7846) main: Analog 0 Pin Value : 4513 
+[0m
+[0;32mI (7853) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7865) main: Analog 1 Pin Value : 4562 
+[0m
+[0;32mI (7871) main: Index 45, Red Peak Value : 4663 
+[0m
+[0;32mI (7880) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7891) main: Analog 0 Pin Value : 4659 
+[0m
+[0;32mI (7898) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7910) main: Analog 1 Pin Value : 4652 
+[0m
+[0;32mI (7916) main: Index 46, Red Trough Value : 4513 
+[0m
+[0;32mI (7925) main: Index 47, Infrared Trough Value : 4562 
+[0m
+[0;32mI (7935) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (7946) main: Analog 0 Pin Value : 4523 
+[0m
+[0;32mI (7953) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (7964) main: Analog 1 Pin Value : 4552 
+[0m
+[0;32mI (7971) main: Index 46, Red Peak Value : 4659 
+[0m
+[0;32mI (7979) main: Index 47, Infrared Peak Value : 4652 
+[0m
+[0;32mI (7989) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8000) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (8007) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8018) main: Analog 1 Pin Value : 4589 
+[0m
+[0;32mI (8025) main: Index 47, Red Trough Value : 4523 
+[0m
+[0;32mI (8033) main: Index 48, Infrared Trough Value : 4552 
+[0m
+[0;32mI (8043) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8054) main: Analog 0 Pin Value : 4591 
+[0m
+[0;32mI (8061) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8073) main: Analog 1 Pin Value : 4655 
+[0m
+[0;32mI (8080) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8091) main: Analog 0 Pin Value : 4670 
+[0m
+[0;32mI (8098) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8109) main: Analog 1 Pin Value : 4662 
+[0m
+[0;32mI (8117) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8127) main: Analog 0 Pin Value : 4590 
+[0m
+[0;32mI (8134) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8146) main: Analog 1 Pin Value : 4534 
+[0m
+[0;32mI (8152) main: Index 47, Red Peak Value : 4670 
+[0m
+[0;32mI (8161) main: Index 48, Infrared Peak Value : 4662 
+[0m
+[0;32mI (8170) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8181) main: Analog 0 Pin Value : 4527 
+[0m
+[0;32mI (8188) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8200) main: Analog 1 Pin Value : 4569 
+[0m
+[0;32mI (8206) main: Index 49, Infrared Trough Value : 4534 
+[0m
+[0;32mI (8216) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8227) main: Analog 0 Pin Value : 4620 
+[0m
+[0;32mI (8234) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8246) main: Analog 1 Pin Value : 4547 
+[0m
+[0;32mI (8252) main: Index 48, Red Trough Value : 4527 
+[0m
+[0;32mI (8261) main: Index 49, Infrared Peak Value : 4569 
+[0m
+[0;32mI (8270) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8281) main: Analog 0 Pin Value : 4522 
+[0m
+[0;32mI (8288) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8300) main: Analog 1 Pin Value : 4565 
+[0m
+[0;32mI (8306) main: Index 48, Red Peak Value : 4620 
+[0m
+[0;32mI (8315) main: Index 50, Infrared Trough Value : 4547 
+[0m
+[0;32mI (8325) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8336) main: Analog 0 Pin Value : 4583 
+[0m
+[0;32mI (8343) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8355) main: Analog 1 Pin Value : 4626 
+[0m
+[0;32mI (8361) main: Index 49, Red Trough Value : 4522 
+[0m
+[0;32mI (8371) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8382) main: Analog 0 Pin Value : 4518 
+[0m
+[0;32mI (8389) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8400) main: Analog 1 Pin Value : 4571 
+[0m
+[0;32mI (8407) main: Index 49, Red Peak Value : 4583 
+[0m
+[0;32mI (8415) main: Index 50, Infrared Peak Value : 4626 
+[0m
+[0;32mI (8425) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8435) main: Analog 0 Pin Value : 4562 
+[0m
+[0;32mI (8443) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8454) main: Analog 1 Pin Value : 4605 
+[0m
+[0;32mI (8461) main: Index 50, Red Trough Value : 4518 
+[0m
+[0;32mI (8469) main: Index 51, Infrared Trough Value : 4571 
+[0m
+[0;32mI (8479) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8490) main: Analog 0 Pin Value : 4661 
+[0m
+[0;32mI (8497) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8509) main: Analog 1 Pin Value : 4659 
+[0m
+[0;32mI (8516) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8527) main: Analog 0 Pin Value : 4623 
+[0m
+[0;32mI (8534) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8545) main: Analog 1 Pin Value : 4587 
+[0m
+[0;32mI (8552) main: Index 50, Red Peak Value : 4661 
+[0m
+[0;32mI (8560) main: Index 51, Infrared Peak Value : 4659 
+[0m
+[0;32mI (8570) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8580) main: Analog 0 Pin Value : 4496 
+[0m
+[0;32mI (8588) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8599) main: Analog 1 Pin Value : 4570 
+[0m
+[0;32mI (8606) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8617) main: Analog 0 Pin Value : 4587 
+[0m
+[0;32mI (8624) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8636) main: Analog 1 Pin Value : 4606 
+[0m
+[0;32mI (8642) main: Index 51, Red Trough Value : 4496 
+[0m
+[0;32mI (8651) main: Index 52, Infrared Trough Value : 4570 
+[0m
+[0;32mI (8661) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8672) main: Analog 0 Pin Value : 4638 
+[0m
+[0;32mI (8679) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8690) main: Analog 1 Pin Value : 4679 
+[0m
+[0;32mI (8698) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8708) main: Analog 0 Pin Value : 4674 
+[0m
+[0;32mI (8716) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8727) main: Analog 1 Pin Value : 4638 
+[0m
+[0;32mI (8734) main: Index 52, Infrared Peak Value : 4679 
+[0m
+[0;32mI (8743) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8754) main: Analog 0 Pin Value : 4601 
+[0m
+[0;32mI (8761) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8773) main: Analog 1 Pin Value : 4664 
+[0m
+[0;32mI (8779) main: Index 51, Red Peak Value : 4674 
+[0m
+[0;32mI (8787) main: Index 53, Infrared Trough Value : 4638 
+[0m
+[0;32mI (8797) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8808) main: Analog 0 Pin Value : 4666 
+[0m
+[0;32mI (8815) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8827) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (8833) main: Index 52, Red Trough Value : 4601 
+[0m
+[0;32mI (8842) main: Index 53, Infrared Peak Value : 4664 
+[0m
+[0;32mI (8852) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8862) main: Analog 0 Pin Value : 4511 
+[0m
+[0;32mI (8870) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8881) main: Analog 1 Pin Value : 4550 
+[0m
+[0;32mI (8887) main: Index 52, Red Peak Value : 4666 
+[0m
+[0;32mI (8897) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8907) main: Analog 0 Pin Value : 4681 
+[0m
+[0;32mI (8914) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8926) main: Analog 1 Pin Value : 4661 
+[0m
+[0;32mI (8932) main: Index 53, Red Trough Value : 4511 
+[0m
+[0;32mI (8941) main: Index 54, Infrared Trough Value : 4550 
+[0m
+[0;32mI (8951) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (8962) main: Analog 0 Pin Value : 4524 
+[0m
+[0;32mI (8969) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (8980) main: Analog 1 Pin Value : 4551 
+[0m
+[0;32mI (8987) main: Index 53, Red Peak Value : 4681 
+[0m
+[0;32mI (8995) main: Index 54, Infrared Peak Value : 4661 
+[0m
+[0;32mI (9005) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9016) main: Analog 0 Pin Value : 4527 
+[0m
+[0;32mI (9023) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9034) main: Analog 1 Pin Value : 4600 
+[0m
+[0;32mI (9041) main: Index 54, Red Trough Value : 4524 
+[0m
+[0;32mI (9049) main: Index 55, Infrared Trough Value : 4551 
+[0m
+[0;32mI (9059) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9070) main: Analog 0 Pin Value : 4589 
+[0m
+[0;32mI (9077) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9089) main: Analog 1 Pin Value : 4652 
+[0m
+[0;32mI (9096) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9107) main: Analog 0 Pin Value : 4663 
+[0m
+[0;32mI (9114) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9125) main: Analog 1 Pin Value : 4642 
+[0m
+[0;32mI (9132) main: Index 55, Infrared Peak Value : 4652 
+[0m
+[0;32mI (9142) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9152) main: Analog 0 Pin Value : 4579 
+[0m
+[0;32mI (9160) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9171) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (9178) main: Index 54, Red Peak Value : 4663 
+[0m
+[0;32mI (9187) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9197) main: Analog 0 Pin Value : 4535 
+[0m
+[0;32mI (9205) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9216) main: Analog 1 Pin Value : 4591 
+[0m
+[0;32mI (9223) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9234) main: Analog 0 Pin Value : 4604 
+[0m
+[0;32mI (9241) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9253) main: Analog 1 Pin Value : 4603 
+[0m
+[0;32mI (9259) main: Index 55, Red Trough Value : 4535 
+[0m
+[0;32mI (9268) main: Index 56, Infrared Trough Value : 4591 
+[0m
+[0;32mI (9278) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9289) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (9296) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9307) main: Analog 1 Pin Value : 4636 
+[0m
+[0;32mI (9314) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9325) main: Analog 0 Pin Value : 4593 
+[0m
+[0;32mI (9332) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9344) main: Analog 1 Pin Value : 4560 
+[0m
+[0;32mI (9350) main: Index 55, Red Peak Value : 4627 
+[0m
+[0;32mI (9359) main: Index 56, Infrared Peak Value : 4636 
+[0m
+[0;32mI (9368) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9379) main: Analog 0 Pin Value : 4514 
+[0m
+[0;32mI (9386) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9398) main: Analog 1 Pin Value : 4588 
+[0m
+[0;32mI (9404) main: Index 57, Infrared Trough Value : 4560 
+[0m
+[0;32mI (9414) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9425) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (9432) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9444) main: Analog 1 Pin Value : 4569 
+[0m
+[0;32mI (9450) main: Index 56, Red Trough Value : 4514 
+[0m
+[0;32mI (9459) main: Index 57, Infrared Peak Value : 4588 
+[0m
+[0;32mI (9468) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9479) main: Analog 0 Pin Value : 4521 
+[0m
+[0;32mI (9486) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9498) main: Analog 1 Pin Value : 4583 
+[0m
+[0;32mI (9504) main: Index 56, Red Peak Value : 4627 
+[0m
+[0;32mI (9513) main: Index 58, Infrared Trough Value : 4569 
+[0m
+[0;32mI (9522) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9533) main: Analog 0 Pin Value : 4565 
+[0m
+[0;32mI (9540) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9552) main: Analog 1 Pin Value : 4594 
+[0m
+[0;32mI (9558) main: Index 57, Red Trough Value : 4521 
+[0m
+[0;32mI (9568) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9579) main: Analog 0 Pin Value : 4527 
+[0m
+[0;32mI (9586) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9597) main: Analog 1 Pin Value : 4583 
+[0m
+[0;32mI (9604) main: Index 57, Red Peak Value : 4565 
+[0m
+[0;32mI (9612) main: Index 58, Infrared Peak Value : 4594 
+[0m
+[0;32mI (9622) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9632) main: Analog 0 Pin Value : 4562 
+[0m
+[0;32mI (9640) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9651) main: Analog 1 Pin Value : 4593 
+[0m
+[0;32mI (9658) main: Index 58, Red Trough Value : 4527 
+[0m
+[0;32mI (9666) main: Index 59, Infrared Trough Value : 4583 
+[0m
+[0;32mI (9676) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9687) main: Analog 0 Pin Value : 4608 
+[0m
+[0;32mI (9694) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9705) main: Analog 1 Pin Value : 4636 
+[0m
+[0;32mI (9713) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9723) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (9731) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9742) main: Analog 1 Pin Value : 4589 
+[0m
+[0;32mI (9749) main: Index 59, Infrared Peak Value : 4636 
+[0m
+[0;32mI (9758) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9769) main: Analog 0 Pin Value : 4590 
+[0m
+[0;32mI (9776) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9788) main: Analog 1 Pin Value : 4641 
+[0m
+[0;32mI (9794) main: Index 58, Red Peak Value : 4616 
+[0m
+[0;32mI (9803) main: Index 60, Infrared Trough Value : 4589 
+[0m
+[0;32mI (9812) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9823) main: Analog 0 Pin Value : 4615 
+[0m
+[0;32mI (9830) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9842) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (9848) main: Index 59, Red Trough Value : 4590 
+[0m
+[0;32mI (9857) main: Index 60, Infrared Peak Value : 4641 
+[0m
+[0;32mI (9867) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9877) main: Analog 0 Pin Value : 4492 
+[0m
+[0;32mI (9885) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9896) main: Analog 1 Pin Value : 4577 
+[0m
+[0;32mI (9903) main: Index 59, Red Peak Value : 4615 
+[0m
+[0;32mI (9912) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9922) main: Analog 0 Pin Value : 4634 
+[0m
+[0;32mI (9930) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9941) main: Analog 1 Pin Value : 4609 
+[0m
+[0;32mI (9948) main: Index 60, Red Trough Value : 4492 
+[0m
+[0;32mI (9956) main: Index 61, Infrared Trough Value : 4577 
+[0m
+[0;32mI (9966) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (9977) main: Analog 0 Pin Value : 4508 
+[0m
+[0;32mI (9984) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (9995) main: Analog 1 Pin Value : 4563 
+[0m
+[0;32mI (10002) main: Index 60, Red Peak Value : 4634 
+[0m
+[0;32mI (10010) main: Index 61, Infrared Peak Value : 4609 
+[0m
+[0;32mI (10020) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10031) main: Analog 0 Pin Value : 4540 
+[0m
+[0;32mI (10038) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10050) main: Analog 1 Pin Value : 4595 
+[0m
+[0;32mI (10057) main: Index 61, Red Trough Value : 4508 
+[0m
+[0;32mI (10065) main: Index 62, Infrared Trough Value : 4563 
+[0m
+[0;32mI (10075) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10086) main: Analog 0 Pin Value : 4601 
+[0m
+[0;32mI (10094) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10105) main: Analog 1 Pin Value : 4637 
+[0m
+[0;32mI (10113) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10124) main: Analog 0 Pin Value : 4611 
+[0m
+[0;32mI (10131) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10142) main: Analog 1 Pin Value : 4565 
+[0m
+[0;32mI (10149) main: Index 62, Infrared Peak Value : 4637 
+[0m
+[0;32mI (10159) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10170) main: Analog 0 Pin Value : 4618 
+[0m
+[0;32mI (10177) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10189) main: Analog 1 Pin Value : 4630 
+[0m
+[0;32mI (10195) main: Index 63, Infrared Trough Value : 4565 
+[0m
+[0;32mI (10205) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10216) main: Analog 0 Pin Value : 4559 
+[0m
+[0;32mI (10224) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10235) main: Analog 1 Pin Value : 4616 
+[0m
+[0;32mI (10242) main: Index 61, Red Peak Value : 4618 
+[0m
+[0;32mI (10250) main: Index 63, Infrared Peak Value : 4630 
+[0m
+[0;32mI (10260) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10271) main: Analog 0 Pin Value : 4632 
+[0m
+[0;32mI (10278) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10290) main: Analog 1 Pin Value : 4623 
+[0m
+[0;32mI (10297) main: Index 62, Red Trough Value : 4559 
+[0m
+[0;32mI (10305) main: Index 64, Infrared Trough Value : 4616 
+[0m
+[0;32mI (10315) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10326) main: Analog 0 Pin Value : 4501 
+[0m
+[0;32mI (10334) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10345) main: Analog 1 Pin Value : 4567 
+[0m
+[0;32mI (10352) main: Index 62, Red Peak Value : 4632 
+[0m
+[0;32mI (10360) main: Index 64, Infrared Peak Value : 4623 
+[0m
+[0;32mI (10370) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10381) main: Analog 0 Pin Value : 4557 
+[0m
+[0;32mI (10388) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10400) main: Analog 1 Pin Value : 4595 
+[0m
+[0;32mI (10407) main: Index 63, Red Trough Value : 4501 
+[0m
+[0;32mI (10415) main: Index 65, Infrared Trough Value : 4567 
+[0m
+[0;32mI (10425) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10436) main: Analog 0 Pin Value : 4625 
+[0m
+[0;32mI (10444) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10455) main: Analog 1 Pin Value : 4625 
+[0m
+[0;32mI (10463) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10474) main: Analog 0 Pin Value : 4602 
+[0m
+[0;32mI (10481) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10493) main: Analog 1 Pin Value : 4563 
+[0m
+[0;32mI (10499) main: Index 63, Red Peak Value : 4625 
+[0m
+[0;32mI (10508) main: Index 65, Infrared Peak Value : 4625 
+[0m
+[0;32mI (10517) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10528) main: Analog 0 Pin Value : 4528 
+[0m
+[0;32mI (10536) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10547) main: Analog 1 Pin Value : 4571 
+[0m
+[0;32mI (10554) main: Index 66, Infrared Trough Value : 4563 
+[0m
+[0;32mI (10564) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10575) main: Analog 0 Pin Value : 4594 
+[0m
+[0;32mI (10582) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10594) main: Analog 1 Pin Value : 4541 
+[0m
+[0;32mI (10600) main: Index 64, Red Trough Value : 4528 
+[0m
+[0;32mI (10609) main: Index 66, Infrared Peak Value : 4571 
+[0m
+[0;32mI (10619) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10630) main: Analog 0 Pin Value : 4547 
+[0m
+[0;32mI (10637) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10649) main: Analog 1 Pin Value : 4597 
+[0m
+[0;32mI (10655) main: Index 64, Red Peak Value : 4594 
+[0m
+[0;32mI (10664) main: Index 67, Infrared Trough Value : 4541 
+[0m
+[0;32mI (10674) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10685) main: Analog 0 Pin Value : 4596 
+[0m
+[0;32mI (10692) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10704) main: Analog 1 Pin Value : 4647 
+[0m
+[0;32mI (10710) main: Index 65, Red Trough Value : 4547 
+[0m
+[0;32mI (10720) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10731) main: Analog 0 Pin Value : 4555 
+[0m
+[0;32mI (10738) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10750) main: Analog 1 Pin Value : 4607 
+[0m
+[0;32mI (10756) main: Index 65, Red Peak Value : 4596 
+[0m
+[0;32mI (10765) main: Index 67, Infrared Peak Value : 4647 
+[0m
+[0;32mI (10775) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10785) main: Analog 0 Pin Value : 4605 
+[0m
+[0;32mI (10793) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10804) main: Analog 1 Pin Value : 4637 
+[0m
+[0;32mI (10811) main: Index 66, Red Trough Value : 4555 
+[0m
+[0;32mI (10820) main: Index 68, Infrared Trough Value : 4607 
+[0m
+[0;32mI (10830) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10841) main: Analog 0 Pin Value : 4549 
+[0m
+[0;32mI (10848) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10860) main: Analog 1 Pin Value : 4533 
+[0m
+[0;32mI (10866) main: Index 66, Red Peak Value : 4605 
+[0m
+[0;32mI (10875) main: Index 68, Infrared Peak Value : 4637 
+[0m
+[0;32mI (10884) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10895) main: Analog 0 Pin Value : 4535 
+[0m
+[0;32mI (10903) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10914) main: Analog 1 Pin Value : 4600 
+[0m
+[0;32mI (10921) main: Index 69, Infrared Trough Value : 4533 
+[0m
+[0;32mI (10931) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10942) main: Analog 0 Pin Value : 4553 
+[0m
+[0;32mI (10949) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (10961) main: Analog 1 Pin Value : 4552 
+[0m
+[0;32mI (10968) main: Index 67, Red Trough Value : 4535 
+[0m
+[0;32mI (10976) main: Index 69, Infrared Peak Value : 4600 
+[0m
+[0;32mI (10986) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (10997) main: Analog 0 Pin Value : 4542 
+[0m
+[0;32mI (11004) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11016) main: Analog 1 Pin Value : 4597 
+[0m
+[0;32mI (11022) main: Index 67, Red Peak Value : 4553 
+[0m
+[0;32mI (11031) main: Index 70, Infrared Trough Value : 4552 
+[0m
+[0;32mI (11041) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11052) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (11059) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11071) main: Analog 1 Pin Value : 4633 
+[0m
+[0;32mI (11077) main: Index 68, Red Trough Value : 4542 
+[0m
+[0;32mI (11087) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11098) main: Analog 0 Pin Value : 4575 
+[0m
+[0;32mI (11106) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11118) main: Analog 1 Pin Value : 4614 
+[0m
+[0;32mI (11124) main: Index 68, Red Peak Value : 4616 
+[0m
+[0;32mI (11133) main: Index 70, Infrared Peak Value : 4633 
+[0m
+[0;32mI (11142) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11153) main: Analog 0 Pin Value : 4637 
+[0m
+[0;32mI (11161) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11172) main: Analog 1 Pin Value : 4626 
+[0m
+[0;32mI (11179) main: Index 69, Red Trough Value : 4575 
+[0m
+[0;32mI (11188) main: Index 71, Infrared Trough Value : 4614 
+[0m
+[0;32mI (11198) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11209) main: Analog 0 Pin Value : 4529 
+[0m
+[0;32mI (11216) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11228) main: Analog 1 Pin Value : 4552 
+[0m
+[0;32mI (11234) main: Index 69, Red Peak Value : 4637 
+[0m
+[0;32mI (11243) main: Index 71, Infrared Peak Value : 4626 
+[0m
+[0;32mI (11252) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11263) main: Analog 0 Pin Value : 4535 
+[0m
+[0;32mI (11271) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11282) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (11289) main: Index 70, Red Trough Value : 4529 
+[0m
+[0;32mI (11298) main: Index 72, Infrared Trough Value : 4552 
+[0m
+[0;32mI (11308) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11319) main: Analog 0 Pin Value : 4594 
+[0m
+[0;32mI (11326) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11337) main: Analog 1 Pin Value : 4642 
+[0m
+[0;32mI (11345) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11356) main: Analog 0 Pin Value : 4622 
+[0m
+[0;32mI (11363) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11375) main: Analog 1 Pin Value : 4571 
+[0m
+[0;32mI (11381) main: Index 72, Infrared Peak Value : 4642 
+[0m
+[0;32mI (11391) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11402) main: Analog 0 Pin Value : 4618 
+[0m
+[0;32mI (11409) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11421) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (11428) main: Index 70, Red Peak Value : 4622 
+[0m
+[0;32mI (11436) main: Index 73, Infrared Trough Value : 4571 
+[0m
+[0;32mI (11446) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11457) main: Analog 0 Pin Value : 4569 
+[0m
+[0;32mI (11464) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11476) main: Analog 1 Pin Value : 4549 
+[0m
+[0;32mI (11482) main: Index 73, Infrared Peak Value : 4631 
+[0m
+[0;32mI (11492) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11503) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (11510) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11522) main: Analog 1 Pin Value : 4632 
+[0m
+[0;32mI (11529) main: Index 71, Red Trough Value : 4569 
+[0m
+[0;32mI (11537) main: Index 74, Infrared Trough Value : 4549 
+[0m
+[0;32mI (11547) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11558) main: Analog 0 Pin Value : 4508 
+[0m
+[0;32mI (11566) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11577) main: Analog 1 Pin Value : 4563 
+[0m
+[0;32mI (11584) main: Index 71, Red Peak Value : 4627 
+[0m
+[0;32mI (11592) main: Index 74, Infrared Peak Value : 4632 
+[0m
+[0;32mI (11602) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11613) main: Analog 0 Pin Value : 4552 
+[0m
+[0;32mI (11620) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11632) main: Analog 1 Pin Value : 4605 
+[0m
+[0;32mI (11639) main: Index 72, Red Trough Value : 4508 
+[0m
+[0;32mI (11647) main: Index 75, Infrared Trough Value : 4563 
+[0m
+[0;32mI (11657) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11668) main: Analog 0 Pin Value : 4620 
+[0m
+[0;32mI (11676) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11687) main: Analog 1 Pin Value : 4638 
+[0m
+[0;32mI (11695) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11706) main: Analog 0 Pin Value : 4604 
+[0m
+[0;32mI (11713) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11725) main: Analog 1 Pin Value : 4566 
+[0m
+[0;32mI (11731) main: Index 72, Red Peak Value : 4620 
+[0m
+[0;32mI (11740) main: Index 75, Infrared Peak Value : 4638 
+[0m
+[0;32mI (11749) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11760) main: Analog 0 Pin Value : 4523 
+[0m
+[0;32mI (11768) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11779) main: Analog 1 Pin Value : 4579 
+[0m
+[0;32mI (11786) main: Index 76, Infrared Trough Value : 4566 
+[0m
+[0;32mI (11796) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11807) main: Analog 0 Pin Value : 4588 
+[0m
+[0;32mI (11814) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11826) main: Analog 1 Pin Value : 4535 
+[0m
+[0;32mI (11832) main: Index 73, Red Trough Value : 4523 
+[0m
+[0;32mI (11841) main: Index 76, Infrared Peak Value : 4579 
+[0m
+[0;32mI (11851) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11862) main: Analog 0 Pin Value : 4537 
+[0m
+[0;32mI (11869) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11881) main: Analog 1 Pin Value : 4598 
+[0m
+[0;32mI (11887) main: Index 73, Red Peak Value : 4588 
+[0m
+[0;32mI (11896) main: Index 77, Infrared Trough Value : 4535 
+[0m
+[0;32mI (11906) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11917) main: Analog 0 Pin Value : 4592 
+[0m
+[0;32mI (11924) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11936) main: Analog 1 Pin Value : 4655 
+[0m
+[0;32mI (11942) main: Index 74, Red Trough Value : 4537 
+[0m
+[0;32mI (11952) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (11963) main: Analog 0 Pin Value : 4546 
+[0m
+[0;32mI (11970) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (11982) main: Analog 1 Pin Value : 4608 
+[0m
+[0;32mI (11988) main: Index 74, Red Peak Value : 4592 
+[0m
+[0;32mI (11997) main: Index 77, Infrared Peak Value : 4655 
+[0m
+[0;32mI (12007) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12017) main: Analog 0 Pin Value : 4607 
+[0m
+[0;32mI (12025) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12036) main: Analog 1 Pin Value : 4640 
+[0m
+[0;32mI (12043) main: Index 75, Red Trough Value : 4546 
+[0m
+[0;32mI (12052) main: Index 78, Infrared Trough Value : 4608 
+[0m
+[0;32mI (12062) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12073) main: Analog 0 Pin Value : 4558 
+[0m
+[0;32mI (12080) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12092) main: Analog 1 Pin Value : 4554 
+[0m
+[0;32mI (12098) main: Index 75, Red Peak Value : 4607 
+[0m
+[0;32mI (12107) main: Index 78, Infrared Peak Value : 4640 
+[0m
+[0;32mI (12116) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12127) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (12135) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12146) main: Analog 1 Pin Value : 4592 
+[0m
+[0;32mI (12153) main: Index 79, Infrared Trough Value : 4554 
+[0m
+[0;32mI (12163) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12174) main: Analog 0 Pin Value : 4575 
+[0m
+[0;32mI (12181) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12193) main: Analog 1 Pin Value : 4553 
+[0m
+[0;32mI (12200) main: Index 76, Red Trough Value : 4536 
+[0m
+[0;32mI (12208) main: Index 79, Infrared Peak Value : 4592 
+[0m
+[0;32mI (12218) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12229) main: Analog 0 Pin Value : 4550 
+[0m
+[0;32mI (12236) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12248) main: Analog 1 Pin Value : 4606 
+[0m
+[0;32mI (12255) main: Index 76, Red Peak Value : 4575 
+[0m
+[0;32mI (12263) main: Index 80, Infrared Trough Value : 4553 
+[0m
+[0;32mI (12273) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12284) main: Analog 0 Pin Value : 4608 
+[0m
+[0;32mI (12291) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12303) main: Analog 1 Pin Value : 4630 
+[0m
+[0;32mI (12310) main: Index 77, Red Trough Value : 4550 
+[0m
+[0;32mI (12319) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12330) main: Analog 0 Pin Value : 4559 
+[0m
+[0;32mI (12337) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12349) main: Analog 1 Pin Value : 4614 
+[0m
+[0;32mI (12355) main: Index 77, Red Peak Value : 4608 
+[0m
+[0;32mI (12364) main: Index 80, Infrared Peak Value : 4630 
+[0m
+[0;32mI (12374) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12385) main: Analog 0 Pin Value : 4614 
+[0m
+[0;32mI (12392) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12404) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (12410) main: Index 78, Red Trough Value : 4559 
+[0m
+[0;32mI (12419) main: Index 81, Infrared Trough Value : 4614 
+[0m
+[0;32mI (12429) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12440) main: Analog 0 Pin Value : 4534 
+[0m
+[0;32mI (12447) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12459) main: Analog 1 Pin Value : 4537 
+[0m
+[0;32mI (12465) main: Index 78, Red Peak Value : 4614 
+[0m
+[0;32mI (12474) main: Index 81, Infrared Peak Value : 4631 
+[0m
+[0;32mI (12484) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12495) main: Analog 0 Pin Value : 4532 
+[0m
+[0;32mI (12502) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12514) main: Analog 1 Pin Value : 4594 
+[0m
+[0;32mI (12520) main: Index 82, Infrared Trough Value : 4537 
+[0m
+[0;32mI (12530) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12541) main: Analog 0 Pin Value : 4539 
+[0m
+[0;32mI (12548) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12560) main: Analog 1 Pin Value : 4569 
+[0m
+[0;32mI (12567) main: Index 79, Red Trough Value : 4532 
+[0m
+[0;32mI (12575) main: Index 82, Infrared Peak Value : 4594 
+[0m
+[0;32mI (12585) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12596) main: Analog 0 Pin Value : 4559 
+[0m
+[0;32mI (12603) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12615) main: Analog 1 Pin Value : 4616 
+[0m
+[0;32mI (12621) main: Index 83, Infrared Trough Value : 4569 
+[0m
+[0;32mI (12632) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12642) main: Analog 0 Pin Value : 4529 
+[0m
+[0;32mI (12650) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12661) main: Analog 1 Pin Value : 4587 
+[0m
+[0;32mI (12668) main: Index 79, Red Peak Value : 4559 
+[0m
+[0;32mI (12676) main: Index 83, Infrared Peak Value : 4616 
+[0m
+[0;32mI (12687) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12698) main: Analog 0 Pin Value : 4574 
+[0m
+[0;32mI (12705) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12717) main: Analog 1 Pin Value : 4627 
+[0m
+[0;32mI (12723) main: Index 80, Red Trough Value : 4529 
+[0m
+[0;32mI (12732) main: Index 84, Infrared Trough Value : 4587 
+[0m
+[0;32mI (12742) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12753) main: Analog 0 Pin Value : 4620 
+[0m
+[0;32mI (12760) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12772) main: Analog 1 Pin Value : 4604 
+[0m
+[0;32mI (12779) main: Index 84, Infrared Peak Value : 4627 
+[0m
+[0;32mI (12788) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12799) main: Analog 0 Pin Value : 4585 
+[0m
+[0;32mI (12807) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12818) main: Analog 1 Pin Value : 4652 
+[0m
+[0;32mI (12825) main: Index 80, Red Peak Value : 4620 
+[0m
+[0;32mI (12833) main: Index 85, Infrared Trough Value : 4604 
+[0m
+[0;32mI (12843) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12854) main: Analog 0 Pin Value : 4595 
+[0m
+[0;32mI (12862) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12873) main: Analog 1 Pin Value : 4569 
+[0m
+[0;32mI (12880) main: Index 81, Red Trough Value : 4585 
+[0m
+[0;32mI (12889) main: Index 85, Infrared Peak Value : 4652 
+[0m
+[0;32mI (12898) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12909) main: Analog 0 Pin Value : 4529 
+[0m
+[0;32mI (12917) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12928) main: Analog 1 Pin Value : 4578 
+[0m
+[0;32mI (12935) main: Index 81, Red Peak Value : 4595 
+[0m
+[0;32mI (12943) main: Index 86, Infrared Trough Value : 4569 
+[0m
+[0;32mI (12953) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (12964) main: Analog 0 Pin Value : 4561 
+[0m
+[0;32mI (12972) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (12983) main: Analog 1 Pin Value : 4627 
+[0m
+[0;32mI (12990) main: Index 82, Red Trough Value : 4529 
+[0m
+[0;32mI (12999) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13010) main: Analog 0 Pin Value : 4533 
+[0m
+[0;32mI (13018) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13029) main: Analog 1 Pin Value : 4587 
+[0m
+[0;32mI (13036) main: Index 82, Red Peak Value : 4561 
+[0m
+[0;32mI (13044) main: Index 86, Infrared Peak Value : 4627 
+[0m
+[0;32mI (13054) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13065) main: Analog 0 Pin Value : 4576 
+[0m
+[0;32mI (13072) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13084) main: Analog 1 Pin Value : 4642 
+[0m
+[0;32mI (13091) main: Index 83, Red Trough Value : 4533 
+[0m
+[0;32mI (13099) main: Index 87, Infrared Trough Value : 4587 
+[0m
+[0;32mI (13109) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13120) main: Analog 0 Pin Value : 4608 
+[0m
+[0;32mI (13128) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13139) main: Analog 1 Pin Value : 4578 
+[0m
+[0;32mI (13146) main: Index 87, Infrared Peak Value : 4642 
+[0m
+[0;32mI (13156) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13167) main: Analog 0 Pin Value : 4609 
+[0m
+[0;32mI (13174) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13185) main: Analog 1 Pin Value : 4626 
+[0m
+[0;32mI (13192) main: Index 88, Infrared Trough Value : 4578 
+[0m
+[0;32mI (13202) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13213) main: Analog 0 Pin Value : 4567 
+[0m
+[0;32mI (13220) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13232) main: Analog 1 Pin Value : 4602 
+[0m
+[0;32mI (13239) main: Index 83, Red Peak Value : 4609 
+[0m
+[0;32mI (13247) main: Index 88, Infrared Peak Value : 4626 
+[0m
+[0;32mI (13257) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13268) main: Analog 0 Pin Value : 4636 
+[0m
+[0;32mI (13275) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13287) main: Analog 1 Pin Value : 4624 
+[0m
+[0;32mI (13293) main: Index 84, Red Trough Value : 4567 
+[0m
+[0;32mI (13302) main: Index 89, Infrared Trough Value : 4602 
+[0m
+[0;32mI (13312) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13323) main: Analog 0 Pin Value : 4515 
+[0m
+[0;32mI (13330) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13342) main: Analog 1 Pin Value : 4557 
+[0m
+[0;32mI (13349) main: Index 84, Red Peak Value : 4636 
+[0m
+[0;32mI (13357) main: Index 89, Infrared Peak Value : 4624 
+[0m
+[0;32mI (13367) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13378) main: Analog 0 Pin Value : 4544 
+[0m
+[0;32mI (13385) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13397) main: Analog 1 Pin Value : 4602 
+[0m
+[0;32mI (13403) main: Index 85, Red Trough Value : 4515 
+[0m
+[0;32mI (13412) main: Index 90, Infrared Trough Value : 4557 
+[0m
+[0;32mI (13422) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13433) main: Analog 0 Pin Value : 4612 
+[0m
+[0;32mI (13440) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13452) main: Analog 1 Pin Value : 4625 
+[0m
+[0;32mI (13459) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13470) main: Analog 0 Pin Value : 4610 
+[0m
+[0;32mI (13478) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13489) main: Analog 1 Pin Value : 4561 
+[0m
+[0;32mI (13496) main: Index 85, Red Peak Value : 4612 
+[0m
+[0;32mI (13504) main: Index 90, Infrared Peak Value : 4625 
+[0m
+[0;32mI (13514) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13525) main: Analog 0 Pin Value : 4523 
+[0m
+[0;32mI (13532) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13544) main: Analog 1 Pin Value : 4588 
+[0m
+[0;32mI (13551) main: Index 91, Infrared Trough Value : 4561 
+[0m
+[0;32mI (13561) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13572) main: Analog 0 Pin Value : 4596 
+[0m
+[0;32mI (13579) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13591) main: Analog 1 Pin Value : 4541 
+[0m
+[0;32mI (13597) main: Index 86, Red Trough Value : 4523 
+[0m
+[0;32mI (13606) main: Index 91, Infrared Peak Value : 4588 
+[0m
+[0;32mI (13616) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13627) main: Analog 0 Pin Value : 4534 
+[0m
+[0;32mI (13634) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13646) main: Analog 1 Pin Value : 4585 
+[0m
+[0;32mI (13652) main: Index 86, Red Peak Value : 4596 
+[0m
+[0;32mI (13661) main: Index 92, Infrared Trough Value : 4541 
+[0m
+[0;32mI (13671) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13682) main: Analog 0 Pin Value : 4577 
+[0m
+[0;32mI (13689) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13700) main: Analog 1 Pin Value : 4644 
+[0m
+[0;32mI (13707) main: Index 87, Red Trough Value : 4534 
+[0m
+[0;32mI (13717) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13727) main: Analog 0 Pin Value : 4557 
+[0m
+[0;32mI (13735) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13746) main: Analog 1 Pin Value : 4592 
+[0m
+[0;32mI (13753) main: Index 87, Red Peak Value : 4577 
+[0m
+[0;32mI (13761) main: Index 92, Infrared Peak Value : 4644 
+[0m
+[0;32mI (13771) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13782) main: Analog 0 Pin Value : 4602 
+[0m
+[0;32mI (13789) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13801) main: Analog 1 Pin Value : 4640 
+[0m
+[0;32mI (13808) main: Index 88, Red Trough Value : 4557 
+[0m
+[0;32mI (13816) main: Index 93, Infrared Trough Value : 4592 
+[0m
+[0;32mI (13826) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13837) main: Analog 0 Pin Value : 4564 
+[0m
+[0;32mI (13845) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13856) main: Analog 1 Pin Value : 4547 
+[0m
+[0;32mI (13863) main: Index 88, Red Peak Value : 4602 
+[0m
+[0;32mI (13871) main: Index 93, Infrared Peak Value : 4640 
+[0m
+[0;32mI (13881) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13892) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (13899) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13911) main: Analog 1 Pin Value : 4594 
+[0m
+[0;32mI (13918) main: Index 94, Infrared Trough Value : 4547 
+[0m
+[0;32mI (13928) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13939) main: Analog 0 Pin Value : 4581 
+[0m
+[0;32mI (13946) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (13957) main: Analog 1 Pin Value : 4547 
+[0m
+[0;32mI (13964) main: Index 89, Red Trough Value : 4536 
+[0m
+[0;32mI (13973) main: Index 94, Infrared Peak Value : 4594 
+[0m
+[0;32mI (13983) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (13993) main: Analog 0 Pin Value : 4553 
+[0m
+[0;32mI (14001) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14012) main: Analog 1 Pin Value : 4611 
+[0m
+[0;32mI (14019) main: Index 89, Red Peak Value : 4581 
+[0m
+[0;32mI (14027) main: Index 95, Infrared Trough Value : 4547 
+[0m
+[0;32mI (14037) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14048) main: Analog 0 Pin Value : 4610 
+[0m
+[0;32mI (14056) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14067) main: Analog 1 Pin Value : 4634 
+[0m
+[0;32mI (14074) main: Index 90, Red Trough Value : 4553 
+[0m
+[0;32mI (14083) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14094) main: Analog 0 Pin Value : 4549 
+[0m
+[0;32mI (14102) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14113) main: Analog 1 Pin Value : 4597 
+[0m
+[0;32mI (14120) main: Index 90, Red Peak Value : 4610 
+[0m
+[0;32mI (14128) main: Index 95, Infrared Peak Value : 4634 
+[0m
+[0;32mI (14138) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14149) main: Analog 0 Pin Value : 4614 
+[0m
+[0;32mI (14156) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14168) main: Analog 1 Pin Value : 4632 
+[0m
+[0;32mI (14175) main: Index 91, Red Trough Value : 4549 
+[0m
+[0;32mI (14183) main: Index 96, Infrared Trough Value : 4597 
+[0m
+[0;32mI (14193) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14204) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (14212) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14223) main: Analog 1 Pin Value : 4550 
+[0m
+[0;32mI (14230) main: Index 91, Red Peak Value : 4614 
+[0m
+[0;32mI (14238) main: Index 96, Infrared Peak Value : 4632 
+[0m
+[0;32mI (14248) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14259) main: Analog 0 Pin Value : 4538 
+[0m
+[0;32mI (14266) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14278) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (14285) main: Index 92, Red Trough Value : 4536 
+[0m
+[0;32mI (14293) main: Index 97, Infrared Trough Value : 4550 
+[0m
+[0;32mI (14303) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14314) main: Analog 0 Pin Value : 4602 
+[0m
+[0;32mI (14322) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14333) main: Analog 1 Pin Value : 4644 
+[0m
+[0;32mI (14341) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14352) main: Analog 0 Pin Value : 4621 
+[0m
+[0;32mI (14359) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14370) main: Analog 1 Pin Value : 4582 
+[0m
+[0;32mI (14377) main: Index 97, Infrared Peak Value : 4644 
+[0m
+[0;32mI (14387) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14398) main: Analog 0 Pin Value : 4596 
+[0m
+[0;32mI (14405) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14417) main: Analog 1 Pin Value : 4641 
+[0m
+[0;32mI (14423) main: Index 92, Red Peak Value : 4621 
+[0m
+[0;32mI (14432) main: Index 98, Infrared Trough Value : 4582 
+[0m
+[0;32mI (14442) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14453) main: Analog 0 Pin Value : 4572 
+[0m
+[0;32mI (14460) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14472) main: Analog 1 Pin Value : 4548 
+[0m
+[0;32mI (14478) main: Index 98, Infrared Peak Value : 4641 
+[0m
+[0;32mI (14488) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14499) main: Analog 0 Pin Value : 4631 
+[0m
+[0;32mI (14506) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14518) main: Analog 1 Pin Value : 4627 
+[0m
+[0;32mI (14525) main: Index 93, Red Trough Value : 4572 
+[0m
+[0;32mI (14533) main: Index 99, Infrared Trough Value : 4548 
+[0m
+[0;32mI (14543) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14554) main: Analog 0 Pin Value : 4524 
+[0m
+[0;32mI (14562) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14573) main: Analog 1 Pin Value : 4560 
+[0m
+[0;32mI (14580) main: Index 93, Red Peak Value : 4631 
+[0m
+[0;32mI (14588) main: Index 99, Infrared Peak Value : 4627 
+[0m
+[0;32mI (14598) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14609) main: Analog 0 Pin Value : 4545 
+[0m
+[0;32mI (14616) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14628) main: Analog 1 Pin Value : 4600 
+[0m
+[0;32mI (14635) main: Index 94, Red Trough Value : 4524 
+[0m
+[0;32mI (14643) main: Index 100, Infrared Trough Value : 4560 
+[0m
+[0;32mI (14654) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14665) main: Analog 0 Pin Value : 4612 
+[0m
+[0;32mI (14672) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14683) main: Analog 1 Pin Value : 4635 
+[0m
+[0;32mI (14691) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14702) main: Analog 0 Pin Value : 4615 
+[0m
+[0;32mI (14709) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14721) main: Analog 1 Pin Value : 4571 
+[0m
+[0;32mI (14727) main: Index 100, Infrared Peak Value : 4635 
+[0m
+[0;32mI (14738) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14749) main: Analog 0 Pin Value : 4622 
+[0m
+[0;32mI (14756) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14768) main: Analog 1 Pin Value : 4622 
+[0m
+[0;32mI (14774) main: Index 101, Infrared Trough Value : 4571 
+[0m
+[0;32mI (14785) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14796) main: Analog 0 Pin Value : 4575 
+[0m
+[0;32mI (14803) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14815) main: Analog 1 Pin Value : 4619 
+[0m
+[0;32mI (14821) main: Index 94, Red Peak Value : 4622 
+[0m
+[0;32mI (14830) main: Index 101, Infrared Peak Value : 4622 
+[0m
+[0;32mI (14839) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14850) main: Analog 0 Pin Value : 4633 
+[0m
+[0;32mI (14858) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14869) main: Analog 1 Pin Value : 4609 
+[0m
+[0;32mI (14876) main: Index 95, Red Trough Value : 4575 
+[0m
+[0;32mI (14885) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14896) main: Analog 0 Pin Value : 4564 
+[0m
+[0;32mI (14904) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14915) main: Analog 1 Pin Value : 4639 
+[0m
+[0;32mI (14922) main: Index 95, Red Peak Value : 4633 
+[0m
+[0;32mI (14930) main: Index 102, Infrared Trough Value : 4609 
+[0m
+[0;32mI (14940) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (14951) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (14959) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (14970) main: Analog 1 Pin Value : 4579 
+[0m
+[0;32mI (14977) main: Index 96, Red Trough Value : 4564 
+[0m
+[0;32mI (14986) main: Index 102, Infrared Peak Value : 4639 
+[0m
+[0;32mI (14996) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15007) main: Analog 0 Pin Value : 4513 
+[0m
+[0;32mI (15014) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15025) main: Analog 1 Pin Value : 4574 
+[0m
+[0;32mI (15032) main: Index 96, Red Peak Value : 4616 
+[0m
+[0;32mI (15041) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15052) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (15060) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15071) main: Analog 1 Pin Value : 4554 
+[0m
+[0;32mI (15078) main: Index 97, Red Trough Value : 4513 
+[0m
+[0;32mI (15087) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15098) main: Analog 0 Pin Value : 4614 
+[0m
+[0;32mI (15105) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15117) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (15123) main: Index 97, Red Peak Value : 4627 
+[0m
+[0;32mI (15132) main: Index 103, Infrared Trough Value : 4554 
+[0m
+[0;32mI (15142) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15153) main: Analog 0 Pin Value : 4560 
+[0m
+[0;32mI (15160) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15172) main: Analog 1 Pin Value : 4545 
+[0m
+[0;32mI (15179) main: Index 103, Infrared Peak Value : 4631 
+[0m
+[0;32mI (15189) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15199) main: Analog 0 Pin Value : 4626 
+[0m
+[0;32mI (15207) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15218) main: Analog 1 Pin Value : 4624 
+[0m
+[0;32mI (15225) main: Index 98, Red Trough Value : 4560 
+[0m
+[0;32mI (15234) main: Index 104, Infrared Trough Value : 4545 
+[0m
+[0;32mI (15244) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15255) main: Analog 0 Pin Value : 4495 
+[0m
+[0;32mI (15262) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15274) main: Analog 1 Pin Value : 4581 
+[0m
+[0;32mI (15280) main: Index 98, Red Peak Value : 4626 
+[0m
+[0;32mI (15289) main: Index 104, Infrared Peak Value : 4624 
+[0m
+[0;32mI (15299) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15310) main: Analog 0 Pin Value : 4565 
+[0m
+[0;32mI (15317) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15328) main: Analog 1 Pin Value : 4604 
+[0m
+[0;32mI (15335) main: Index 99, Red Trough Value : 4495 
+[0m
+[0;32mI (15344) main: Index 105, Infrared Trough Value : 4581 
+[0m
+[0;32mI (15354) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15365) main: Analog 0 Pin Value : 4640 
+[0m
+[0;32mI (15372) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15384) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (15391) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15402) main: Analog 0 Pin Value : 4575 
+[0m
+[0;32mI (15409) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15421) main: Analog 1 Pin Value : 4543 
+[0m
+[0;32mI (15428) main: Index 99, Red Peak Value : 4640 
+[0m
+[0;32mI (15436) main: Index 105, Infrared Peak Value : 4631 
+[0m
+[0;32mI (15446) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15457) main: Analog 0 Pin Value : 4547 
+[0m
+[0;32mI (15464) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15476) main: Analog 1 Pin Value : 4586 
+[0m
+[0;32mI (15483) main: Index 106, Infrared Trough Value : 4543 
+[0m
+[0;32mI (15493) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15504) main: Analog 0 Pin Value : 4574 
+[0m
+[0;32mI (15511) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15523) main: Analog 1 Pin Value : 4573 
+[0m
+[0;32mI (15529) main: Index 100, Red Trough Value : 4547 
+[0m
+[0;32mI (15538) main: Index 106, Infrared Peak Value : 4586 
+[0m
+[0;32mI (15548) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15559) main: Analog 0 Pin Value : 4557 
+[0m
+[0;32mI (15566) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15578) main: Analog 1 Pin Value : 4596 
+[0m
+[0;32mI (15584) main: Index 100, Red Peak Value : 4574 
+[0m
+[0;32mI (15593) main: Index 107, Infrared Trough Value : 4573 
+[0m
+[0;32mI (15603) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15614) main: Analog 0 Pin Value : 4623 
+[0m
+[0;32mI (15621) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15633) main: Analog 1 Pin Value : 4628 
+[0m
+[0;32mI (15640) main: Index 101, Red Trough Value : 4557 
+[0m
+[0;32mI (15649) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15660) main: Analog 0 Pin Value : 4565 
+[0m
+[0;32mI (15667) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15679) main: Analog 1 Pin Value : 4619 
+[0m
+[0;32mI (15686) main: Index 101, Red Peak Value : 4623 
+[0m
+[0;32mI (15694) main: Index 107, Infrared Peak Value : 4628 
+[0m
+[0;32mI (15704) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15715) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (15722) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15734) main: Analog 1 Pin Value : 4612 
+[0m
+[0;32mI (15741) main: Index 102, Red Trough Value : 4565 
+[0m
+[0;32mI (15750) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15761) main: Analog 0 Pin Value : 4577 
+[0m
+[0;32mI (15769) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15780) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (15787) main: Index 102, Red Peak Value : 4627 
+[0m
+[0;32mI (15795) main: Index 108, Infrared Trough Value : 4612 
+[0m
+[0;32mI (15805) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15816) main: Analog 0 Pin Value : 4613 
+[0m
+[0;32mI (15824) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15835) main: Analog 1 Pin Value : 4588 
+[0m
+[0;32mI (15842) main: Index 103, Red Trough Value : 4577 
+[0m
+[0;32mI (15851) main: Index 108, Infrared Peak Value : 4631 
+[0m
+[0;32mI (15861) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15872) main: Analog 0 Pin Value : 4514 
+[0m
+[0;32mI (15879) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15891) main: Analog 1 Pin Value : 4585 
+[0m
+[0;32mI (15897) main: Index 103, Red Peak Value : 4613 
+[0m
+[0;32mI (15907) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15917) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (15925) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15936) main: Analog 1 Pin Value : 4553 
+[0m
+[0;32mI (15943) main: Index 104, Red Trough Value : 4514 
+[0m
+[0;32mI (15953) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (15964) main: Analog 0 Pin Value : 4630 
+[0m
+[0;32mI (15971) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (15982) main: Analog 1 Pin Value : 4634 
+[0m
+[0;32mI (15989) main: Index 109, Infrared Trough Value : 4553 
+[0m
+[0;32mI (15999) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16010) main: Analog 0 Pin Value : 4571 
+[0m
+[0;32mI (16018) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16029) main: Analog 1 Pin Value : 4614 
+[0m
+[0;32mI (16036) main: Index 104, Red Peak Value : 4630 
+[0m
+[0;32mI (16044) main: Index 109, Infrared Peak Value : 4634 
+[0m
+[0;32mI (16054) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16065) main: Analog 0 Pin Value : 4619 
+[0m
+[0;32mI (16073) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16084) main: Analog 1 Pin Value : 4600 
+[0m
+[0;32mI (16091) main: Index 105, Red Trough Value : 4571 
+[0m
+[0;32mI (16100) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16111) main: Analog 0 Pin Value : 4583 
+[0m
+[0;32mI (16119) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16130) main: Analog 1 Pin Value : 4649 
+[0m
+[0;32mI (16137) main: Index 105, Red Peak Value : 4619 
+[0m
+[0;32mI (16145) main: Index 110, Infrared Trough Value : 4600 
+[0m
+[0;32mI (16156) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16167) main: Analog 0 Pin Value : 4590 
+[0m
+[0;32mI (16174) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16185) main: Analog 1 Pin Value : 4567 
+[0m
+[0;32mI (16192) main: Index 106, Red Trough Value : 4583 
+[0m
+[0;32mI (16201) main: Index 110, Infrared Peak Value : 4649 
+[0m
+[0;32mI (16211) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16222) main: Analog 0 Pin Value : 4534 
+[0m
+[0;32mI (16229) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16241) main: Analog 1 Pin Value : 4573 
+[0m
+[0;32mI (16247) main: Index 106, Red Peak Value : 4590 
+[0m
+[0;32mI (16256) main: Index 111, Infrared Trough Value : 4567 
+[0m
+[0;32mI (16266) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16277) main: Analog 0 Pin Value : 4562 
+[0m
+[0;32mI (16284) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16296) main: Analog 1 Pin Value : 4620 
+[0m
+[0;32mI (16303) main: Index 107, Red Trough Value : 4534 
+[0m
+[0;32mI (16312) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16323) main: Analog 0 Pin Value : 4548 
+[0m
+[0;32mI (16330) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16342) main: Analog 1 Pin Value : 4596 
+[0m
+[0;32mI (16349) main: Index 107, Red Peak Value : 4562 
+[0m
+[0;32mI (16357) main: Index 111, Infrared Peak Value : 4620 
+[0m
+[0;32mI (16367) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16378) main: Analog 0 Pin Value : 4580 
+[0m
+[0;32mI (16385) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16397) main: Analog 1 Pin Value : 4652 
+[0m
+[0;32mI (16403) main: Index 108, Red Trough Value : 4548 
+[0m
+[0;32mI (16412) main: Index 112, Infrared Trough Value : 4596 
+[0m
+[0;32mI (16422) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16433) main: Analog 0 Pin Value : 4578 
+[0m
+[0;32mI (16441) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16452) main: Analog 1 Pin Value : 4561 
+[0m
+[0;32mI (16459) main: Index 108, Red Peak Value : 4580 
+[0m
+[0;32mI (16468) main: Index 112, Infrared Peak Value : 4652 
+[0m
+[0;32mI (16477) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16488) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (16496) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16507) main: Analog 1 Pin Value : 4586 
+[0m
+[0;32mI (16514) main: Index 113, Infrared Trough Value : 4561 
+[0m
+[0;32mI (16524) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16535) main: Analog 0 Pin Value : 4581 
+[0m
+[0;32mI (16542) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16554) main: Analog 1 Pin Value : 4561 
+[0m
+[0;32mI (16561) main: Index 109, Red Trough Value : 4536 
+[0m
+[0;32mI (16569) main: Index 113, Infrared Peak Value : 4586 
+[0m
+[0;32mI (16579) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16590) main: Analog 0 Pin Value : 4557 
+[0m
+[0;32mI (16598) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16609) main: Analog 1 Pin Value : 4602 
+[0m
+[0;32mI (16616) main: Index 109, Red Peak Value : 4581 
+[0m
+[0;32mI (16624) main: Index 114, Infrared Trough Value : 4561 
+[0m
+[0;32mI (16635) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16646) main: Analog 0 Pin Value : 4614 
+[0m
+[0;32mI (16653) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16665) main: Analog 1 Pin Value : 4626 
+[0m
+[0;32mI (16671) main: Index 110, Red Trough Value : 4557 
+[0m
+[0;32mI (16681) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16692) main: Analog 0 Pin Value : 4569 
+[0m
+[0;32mI (16699) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16711) main: Analog 1 Pin Value : 4603 
+[0m
+[0;32mI (16717) main: Index 110, Red Peak Value : 4614 
+[0m
+[0;32mI (16726) main: Index 114, Infrared Peak Value : 4626 
+[0m
+[0;32mI (16736) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16747) main: Analog 0 Pin Value : 4618 
+[0m
+[0;32mI (16754) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16766) main: Analog 1 Pin Value : 4627 
+[0m
+[0;32mI (16772) main: Index 111, Red Trough Value : 4569 
+[0m
+[0;32mI (16781) main: Index 115, Infrared Trough Value : 4603 
+[0m
+[0;32mI (16791) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16802) main: Analog 0 Pin Value : 4507 
+[0m
+[0;32mI (16809) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16821) main: Analog 1 Pin Value : 4569 
+[0m
+[0;32mI (16828) main: Index 111, Red Peak Value : 4618 
+[0m
+[0;32mI (16836) main: Index 115, Infrared Peak Value : 4627 
+[0m
+[0;32mI (16846) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16857) main: Analog 0 Pin Value : 4561 
+[0m
+[0;32mI (16864) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16876) main: Analog 1 Pin Value : 4599 
+[0m
+[0;32mI (16883) main: Index 112, Red Trough Value : 4507 
+[0m
+[0;32mI (16892) main: Index 116, Infrared Trough Value : 4569 
+[0m
+[0;32mI (16902) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16913) main: Analog 0 Pin Value : 4626 
+[0m
+[0;32mI (16920) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16932) main: Analog 1 Pin Value : 4626 
+[0m
+[0;32mI (16939) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (16950) main: Analog 0 Pin Value : 4574 
+[0m
+[0;32mI (16957) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (16969) main: Analog 1 Pin Value : 4561 
+[0m
+[0;32mI (16975) main: Index 112, Red Peak Value : 4626 
+[0m
+[0;32mI (16984) main: Index 116, Infrared Peak Value : 4626 
+[0m
+[0;32mI (16994) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17005) main: Analog 0 Pin Value : 4532 
+[0m
+[0;32mI (17012) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17024) main: Analog 1 Pin Value : 4583 
+[0m
+[0;32mI (17030) main: Index 117, Infrared Trough Value : 4561 
+[0m
+[0;32mI (17041) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17052) main: Analog 0 Pin Value : 4558 
+[0m
+[0;32mI (17059) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17071) main: Analog 1 Pin Value : 4566 
+[0m
+[0;32mI (17077) main: Index 113, Red Trough Value : 4532 
+[0m
+[0;32mI (17086) main: Index 117, Infrared Peak Value : 4583 
+[0m
+[0;32mI (17096) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17107) main: Analog 0 Pin Value : 4559 
+[0m
+[0;32mI (17114) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17126) main: Analog 1 Pin Value : 4605 
+[0m
+[0;32mI (17132) main: Index 118, Infrared Trough Value : 4566 
+[0m
+[0;32mI (17143) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17154) main: Analog 0 Pin Value : 4524 
+[0m
+[0;32mI (17161) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17172) main: Analog 1 Pin Value : 4579 
+[0m
+[0;32mI (17179) main: Index 113, Red Peak Value : 4559 
+[0m
+[0;32mI (17188) main: Index 118, Infrared Peak Value : 4605 
+[0m
+[0;32mI (17198) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17209) main: Analog 0 Pin Value : 4570 
+[0m
+[0;32mI (17217) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17228) main: Analog 1 Pin Value : 4628 
+[0m
+[0;32mI (17235) main: Index 114, Red Trough Value : 4524 
+[0m
+[0;32mI (17244) main: Index 119, Infrared Trough Value : 4579 
+[0m
+[0;32mI (17254) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17265) main: Analog 0 Pin Value : 4610 
+[0m
+[0;32mI (17272) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17284) main: Analog 1 Pin Value : 4594 
+[0m
+[0;32mI (17291) main: Index 119, Infrared Peak Value : 4628 
+[0m
+[0;32mI (17300) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17311) main: Analog 0 Pin Value : 4597 
+[0m
+[0;32mI (17319) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17330) main: Analog 1 Pin Value : 4635 
+[0m
+[0;32mI (17337) main: Index 114, Red Peak Value : 4610 
+[0m
+[0;32mI (17345) main: Index 120, Infrared Trough Value : 4594 
+[0m
+[0;32mI (17356) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17367) main: Analog 0 Pin Value : 4580 
+[0m
+[0;32mI (17374) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17386) main: Analog 1 Pin Value : 4539 
+[0m
+[0;32mI (17392) main: Index 120, Infrared Peak Value : 4635 
+[0m
+[0;32mI (17402) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17413) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (17420) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17432) main: Analog 1 Pin Value : 4625 
+[0m
+[0;32mI (17439) main: Index 115, Red Trough Value : 4580 
+[0m
+[0;32mI (17447) main: Index 121, Infrared Trough Value : 4539 
+[0m
+[0;32mI (17458) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17469) main: Analog 0 Pin Value : 4515 
+[0m
+[0;32mI (17476) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17488) main: Analog 1 Pin Value : 4565 
+[0m
+[0;32mI (17494) main: Index 115, Red Peak Value : 4627 
+[0m
+[0;32mI (17503) main: Index 121, Infrared Peak Value : 4625 
+[0m
+[0;32mI (17513) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17524) main: Analog 0 Pin Value : 4559 
+[0m
+[0;32mI (17531) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17543) main: Analog 1 Pin Value : 4602 
+[0m
+[0;32mI (17549) main: Index 116, Red Trough Value : 4515 
+[0m
+[0;32mI (17558) main: Index 122, Infrared Trough Value : 4565 
+[0m
+[0;32mI (17568) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17579) main: Analog 0 Pin Value : 4625 
+[0m
+[0;32mI (17586) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17598) main: Analog 1 Pin Value : 4633 
+[0m
+[0;32mI (17605) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17616) main: Analog 0 Pin Value : 4582 
+[0m
+[0;32mI (17623) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17635) main: Analog 1 Pin Value : 4557 
+[0m
+[0;32mI (17642) main: Index 116, Red Peak Value : 4625 
+[0m
+[0;32mI (17650) main: Index 122, Infrared Peak Value : 4633 
+[0m
+[0;32mI (17660) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17671) main: Analog 0 Pin Value : 4544 
+[0m
+[0;32mI (17678) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17690) main: Analog 1 Pin Value : 4586 
+[0m
+[0;32mI (17697) main: Index 123, Infrared Trough Value : 4557 
+[0m
+[0;32mI (17707) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17718) main: Analog 0 Pin Value : 4566 
+[0m
+[0;32mI (17725) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17737) main: Analog 1 Pin Value : 4546 
+[0m
+[0;32mI (17743) main: Index 117, Red Trough Value : 4544 
+[0m
+[0;32mI (17752) main: Index 123, Infrared Peak Value : 4586 
+[0m
+[0;32mI (17762) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17773) main: Analog 0 Pin Value : 4558 
+[0m
+[0;32mI (17780) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17792) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (17799) main: Index 117, Red Peak Value : 4566 
+[0m
+[0;32mI (17807) main: Index 124, Infrared Trough Value : 4546 
+[0m
+[0;32mI (17817) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17828) main: Analog 0 Pin Value : 4618 
+[0m
+[0;32mI (17836) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17847) main: Analog 1 Pin Value : 4637 
+[0m
+[0;32mI (17854) main: Index 118, Red Trough Value : 4558 
+[0m
+[0;32mI (17863) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17874) main: Analog 0 Pin Value : 4568 
+[0m
+[0;32mI (17882) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17893) main: Analog 1 Pin Value : 4618 
+[0m
+[0;32mI (17900) main: Index 118, Red Peak Value : 4618 
+[0m
+[0;32mI (17908) main: Index 124, Infrared Peak Value : 4637 
+[0m
+[0;32mI (17918) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17929) main: Analog 0 Pin Value : 4613 
+[0m
+[0;32mI (17937) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17948) main: Analog 1 Pin Value : 4613 
+[0m
+[0;32mI (17955) main: Index 119, Red Trough Value : 4568 
+[0m
+[0;32mI (17964) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (17975) main: Analog 0 Pin Value : 4574 
+[0m
+[0;32mI (17983) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (17994) main: Analog 1 Pin Value : 4630 
+[0m
+[0;32mI (18001) main: Index 119, Red Peak Value : 4613 
+[0m
+[0;32mI (18009) main: Index 125, Infrared Trough Value : 4613 
+[0m
+[0;32mI (18020) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18031) main: Analog 0 Pin Value : 4623 
+[0m
+[0;32mI (18038) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18049) main: Analog 1 Pin Value : 4599 
+[0m
+[0;32mI (18056) main: Index 120, Red Trough Value : 4574 
+[0m
+[0;32mI (18065) main: Index 125, Infrared Peak Value : 4630 
+[0m
+[0;32mI (18075) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18086) main: Analog 0 Pin Value : 4516 
+[0m
+[0;32mI (18093) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18105) main: Analog 1 Pin Value : 4581 
+[0m
+[0;32mI (18111) main: Index 120, Red Peak Value : 4623 
+[0m
+[0;32mI (18121) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18132) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (18139) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18150) main: Analog 1 Pin Value : 4553 
+[0m
+[0;32mI (18157) main: Index 121, Red Trough Value : 4516 
+[0m
+[0;32mI (18167) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18178) main: Analog 0 Pin Value : 4610 
+[0m
+[0;32mI (18185) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18196) main: Analog 1 Pin Value : 4634 
+[0m
+[0;32mI (18203) main: Index 121, Red Peak Value : 4627 
+[0m
+[0;32mI (18212) main: Index 126, Infrared Trough Value : 4553 
+[0m
+[0;32mI (18222) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18233) main: Analog 0 Pin Value : 4544 
+[0m
+[0;32mI (18240) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18252) main: Analog 1 Pin Value : 4537 
+[0m
+[0;32mI (18258) main: Index 126, Infrared Peak Value : 4634 
+[0m
+[0;32mI (18268) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18279) main: Analog 0 Pin Value : 4628 
+[0m
+[0;32mI (18287) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18298) main: Analog 1 Pin Value : 4607 
+[0m
+[0;32mI (18305) main: Index 122, Red Trough Value : 4544 
+[0m
+[0;32mI (18314) main: Index 127, Infrared Trough Value : 4537 
+[0m
+[0;32mI (18324) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18335) main: Analog 0 Pin Value : 4497 
+[0m
+[0;32mI (18342) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18354) main: Analog 1 Pin Value : 4578 
+[0m
+[0;32mI (18360) main: Index 122, Red Peak Value : 4628 
+[0m
+[0;32mI (18369) main: Index 127, Infrared Peak Value : 4607 
+[0m
+[0;32mI (18379) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18390) main: Analog 0 Pin Value : 4561 
+[0m
+[0;32mI (18397) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18409) main: Analog 1 Pin Value : 4612 
+[0m
+[0;32mI (18415) main: Index 123, Red Trough Value : 4497 
+[0m
+[0;32mI (18424) main: Index 128, Infrared Trough Value : 4578 
+[0m
+[0;32mI (18434) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18445) main: Analog 0 Pin Value : 4630 
+[0m
+[0;32mI (18453) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18464) main: Analog 1 Pin Value : 4616 
+[0m
+[0;32mI (18472) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18482) main: Analog 0 Pin Value : 4571 
+[0m
+[0;32mI (18490) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18501) main: Analog 1 Pin Value : 4541 
+[0m
+[0;32mI (18508) main: Index 123, Red Peak Value : 4630 
+[0m
+[0;32mI (18517) main: Index 128, Infrared Peak Value : 4616 
+[0m
+[0;32mI (18527) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18537) main: Analog 0 Pin Value : 4535 
+[0m
+[0;32mI (18545) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18556) main: Analog 1 Pin Value : 4595 
+[0m
+[0;32mI (18563) main: Index 129, Infrared Trough Value : 4541 
+[0m
+[0;32mI (18573) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18584) main: Analog 0 Pin Value : 4534 
+[0m
+[0;32mI (18591) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18603) main: Analog 1 Pin Value : 4580 
+[0m
+[0;32mI (18610) main: Index 129, Infrared Peak Value : 4595 
+[0m
+[0;32mI (18620) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18631) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (18638) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18649) main: Analog 1 Pin Value : 4564 
+[0m
+[0;32mI (18656) main: Index 124, Red Trough Value : 4534 
+[0m
+[0;32mI (18666) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18677) main: Analog 0 Pin Value : 4618 
+[0m
+[0;32mI (18684) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18695) main: Analog 1 Pin Value : 4634 
+[0m
+[0;32mI (18702) main: Index 130, Infrared Trough Value : 4564 
+[0m
+[0;32mI (18712) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18723) main: Analog 0 Pin Value : 4573 
+[0m
+[0;32mI (18731) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18742) main: Analog 1 Pin Value : 4621 
+[0m
+[0;32mI (18749) main: Index 124, Red Peak Value : 4618 
+[0m
+[0;32mI (18757) main: Index 130, Infrared Peak Value : 4634 
+[0m
+[0;32mI (18767) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18778) main: Analog 0 Pin Value : 4623 
+[0m
+[0;32mI (18786) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18797) main: Analog 1 Pin Value : 4618 
+[0m
+[0;32mI (18804) main: Index 125, Red Trough Value : 4573 
+[0m
+[0;32mI (18813) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18824) main: Analog 0 Pin Value : 4571 
+[0m
+[0;32mI (18832) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18843) main: Analog 1 Pin Value : 4629 
+[0m
+[0;32mI (18850) main: Index 125, Red Peak Value : 4623 
+[0m
+[0;32mI (18858) main: Index 131, Infrared Trough Value : 4618 
+[0m
+[0;32mI (18869) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18879) main: Analog 0 Pin Value : 4609 
+[0m
+[0;32mI (18887) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18898) main: Analog 1 Pin Value : 4588 
+[0m
+[0;32mI (18905) main: Index 126, Red Trough Value : 4571 
+[0m
+[0;32mI (18914) main: Index 131, Infrared Peak Value : 4629 
+[0m
+[0;32mI (18924) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18935) main: Analog 0 Pin Value : 4511 
+[0m
+[0;32mI (18942) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18954) main: Analog 1 Pin Value : 4578 
+[0m
+[0;32mI (18960) main: Index 126, Red Peak Value : 4609 
+[0m
+[0;32mI (18970) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (18980) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (18988) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (18999) main: Analog 1 Pin Value : 4538 
+[0m
+[0;32mI (19006) main: Index 127, Red Trough Value : 4511 
+[0m
+[0;32mI (19016) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19027) main: Analog 0 Pin Value : 4625 
+[0m
+[0;32mI (19034) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19045) main: Analog 1 Pin Value : 4624 
+[0m
+[0;32mI (19052) main: Index 127, Red Peak Value : 4627 
+[0m
+[0;32mI (19061) main: Index 132, Infrared Trough Value : 4538 
+[0m
+[0;32mI (19071) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19082) main: Analog 0 Pin Value : 4545 
+[0m
+[0;32mI (19090) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19102) main: Analog 1 Pin Value : 4546 
+[0m
+[0;32mI (19108) main: Index 132, Infrared Peak Value : 4624 
+[0m
+[0;32mI (19118) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19129) main: Analog 0 Pin Value : 4630 
+[0m
+[0;32mI (19136) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19148) main: Analog 1 Pin Value : 4603 
+[0m
+[0;32mI (19155) main: Index 128, Red Trough Value : 4545 
+[0m
+[0;32mI (19163) main: Index 133, Infrared Trough Value : 4546 
+[0m
+[0;32mI (19174) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19185) main: Analog 0 Pin Value : 4510 
+[0m
+[0;32mI (19192) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19204) main: Analog 1 Pin Value : 4583 
+[0m
+[0;32mI (19210) main: Index 128, Red Peak Value : 4630 
+[0m
+[0;32mI (19219) main: Index 133, Infrared Peak Value : 4603 
+[0m
+[0;32mI (19229) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19240) main: Analog 0 Pin Value : 4554 
+[0m
+[0;32mI (19247) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19258) main: Analog 1 Pin Value : 4596 
+[0m
+[0;32mI (19265) main: Index 129, Red Trough Value : 4510 
+[0m
+[0;32mI (19274) main: Index 134, Infrared Trough Value : 4583 
+[0m
+[0;32mI (19284) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19295) main: Analog 0 Pin Value : 4615 
+[0m
+[0;32mI (19302) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19314) main: Analog 1 Pin Value : 4607 
+[0m
+[0;32mI (19321) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19332) main: Analog 0 Pin Value : 4552 
+[0m
+[0;32mI (19340) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19351) main: Analog 1 Pin Value : 4551 
+[0m
+[0;32mI (19358) main: Index 129, Red Peak Value : 4615 
+[0m
+[0;32mI (19366) main: Index 134, Infrared Peak Value : 4607 
+[0m
+[0;32mI (19376) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19387) main: Analog 0 Pin Value : 4555 
+[0m
+[0;32mI (19395) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19406) main: Analog 1 Pin Value : 4593 
+[0m
+[0;32mI (19413) main: Index 130, Red Trough Value : 4552 
+[0m
+[0;32mI (19422) main: Index 135, Infrared Trough Value : 4551 
+[0m
+[0;32mI (19432) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19443) main: Analog 0 Pin Value : 4612 
+[0m
+[0;32mI (19450) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19462) main: Analog 1 Pin Value : 4636 
+[0m
+[0;32mI (19469) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19480) main: Analog 0 Pin Value : 4612 
+[0m
+[0;32mI (19487) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19499) main: Analog 1 Pin Value : 4557 
+[0m
+[0;32mI (19505) main: Index 135, Infrared Peak Value : 4636 
+[0m
+[0;32mI (19515) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19526) main: Analog 0 Pin Value : 4619 
+[0m
+[0;32mI (19534) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19545) main: Analog 1 Pin Value : 4632 
+[0m
+[0;32mI (19552) main: Index 136, Infrared Trough Value : 4557 
+[0m
+[0;32mI (19562) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19573) main: Analog 0 Pin Value : 4561 
+[0m
+[0;32mI (19580) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19592) main: Analog 1 Pin Value : 4621 
+[0m
+[0;32mI (19599) main: Index 130, Red Peak Value : 4619 
+[0m
+[0;32mI (19607) main: Index 136, Infrared Peak Value : 4632 
+[0m
+[0;32mI (19617) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19628) main: Analog 0 Pin Value : 4621 
+[0m
+[0;32mI (19635) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19647) main: Analog 1 Pin Value : 4609 
+[0m
+[0;32mI (19654) main: Index 131, Red Trough Value : 4561 
+[0m
+[0;32mI (19663) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19674) main: Analog 0 Pin Value : 4575 
+[0m
+[0;32mI (19681) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19693) main: Analog 1 Pin Value : 4638 
+[0m
+[0;32mI (19700) main: Index 131, Red Peak Value : 4621 
+[0m
+[0;32mI (19708) main: Index 137, Infrared Trough Value : 4609 
+[0m
+[0;32mI (19718) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19729) main: Analog 0 Pin Value : 4603 
+[0m
+[0;32mI (19737) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19748) main: Analog 1 Pin Value : 4570 
+[0m
+[0;32mI (19755) main: Index 132, Red Trough Value : 4575 
+[0m
+[0;32mI (19764) main: Index 137, Infrared Peak Value : 4638 
+[0m
+[0;32mI (19774) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19785) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (19792) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19803) main: Analog 1 Pin Value : 4588 
+[0m
+[0;32mI (19810) main: Index 132, Red Peak Value : 4603 
+[0m
+[0;32mI (19819) main: Index 138, Infrared Trough Value : 4570 
+[0m
+[0;32mI (19829) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19840) main: Analog 0 Pin Value : 4572 
+[0m
+[0;32mI (19847) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19859) main: Analog 1 Pin Value : 4635 
+[0m
+[0;32mI (19865) main: Index 133, Red Trough Value : 4536 
+[0m
+[0;32mI (19875) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19886) main: Analog 0 Pin Value : 4537 
+[0m
+[0;32mI (19893) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19905) main: Analog 1 Pin Value : 4597 
+[0m
+[0;32mI (19911) main: Index 133, Red Peak Value : 4572 
+[0m
+[0;32mI (19920) main: Index 138, Infrared Peak Value : 4635 
+[0m
+[0;32mI (19930) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19941) main: Analog 0 Pin Value : 4579 
+[0m
+[0;32mI (19948) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (19960) main: Analog 1 Pin Value : 4651 
+[0m
+[0;32mI (19966) main: Index 134, Red Trough Value : 4537 
+[0m
+[0;32mI (19975) main: Index 139, Infrared Trough Value : 4597 
+[0m
+[0;32mI (19985) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (19996) main: Analog 0 Pin Value : 4580 
+[0m
+[0;32mI (20004) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20015) main: Analog 1 Pin Value : 4547 
+[0m
+[0;32mI (20022) main: Index 139, Infrared Peak Value : 4651 
+[0m
+[0;32mI (20032) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20043) main: Analog 0 Pin Value : 4636 
+[0m
+[0;32mI (20050) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20062) main: Analog 1 Pin Value : 4628 
+[0m
+[0;32mI (20068) main: Index 140, Infrared Trough Value : 4547 
+[0m
+[0;32mI (20078) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20089) main: Analog 0 Pin Value : 4569 
+[0m
+[0;32mI (20097) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20108) main: Analog 1 Pin Value : 4629 
+[0m
+[0;32mI (20115) main: Index 134, Red Peak Value : 4636 
+[0m
+[0;32mI (20124) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20135) main: Analog 0 Pin Value : 4538 
+[0m
+[0;32mI (20142) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20154) main: Analog 1 Pin Value : 4585 
+[0m
+[0;32mI (20161) main: Index 140, Infrared Peak Value : 4629 
+[0m
+[0;32mI (20171) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20182) main: Analog 0 Pin Value : 4557 
+[0m
+[0;32mI (20189) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20200) main: Analog 1 Pin Value : 4564 
+[0m
+[0;32mI (20207) main: Index 135, Red Trough Value : 4538 
+[0m
+[0;32mI (20217) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20228) main: Analog 0 Pin Value : 4636 
+[0m
+[0;32mI (20235) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20246) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (20253) main: Index 141, Infrared Trough Value : 4564 
+[0m
+[0;32mI (20263) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20274) main: Analog 0 Pin Value : 4608 
+[0m
+[0;32mI (20282) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20293) main: Analog 1 Pin Value : 4640 
+[0m
+[0;32mI (20300) main: Index 135, Red Peak Value : 4636 
+[0m
+[0;32mI (20309) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20320) main: Analog 0 Pin Value : 4559 
+[0m
+[0;32mI (20327) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20339) main: Analog 1 Pin Value : 4612 
+[0m
+[0;32mI (20345) main: Index 141, Infrared Peak Value : 4640 
+[0m
+[0;32mI (20355) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20366) main: Analog 0 Pin Value : 4529 
+[0m
+[0;32mI (20374) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20385) main: Analog 1 Pin Value : 4574 
+[0m
+[0;32mI (20393) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20404) main: Analog 0 Pin Value : 4595 
+[0m
+[0;32mI (20411) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20423) main: Analog 1 Pin Value : 4606 
+[0m
+[0;32mI (20429) main: Index 136, Red Trough Value : 4529 
+[0m
+[0;32mI (20438) main: Index 142, Infrared Trough Value : 4574 
+[0m
+[0;32mI (20448) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20459) main: Analog 0 Pin Value : 4620 
+[0m
+[0;32mI (20466) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20478) main: Analog 1 Pin Value : 4616 
+[0m
+[0;32mI (20485) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20496) main: Analog 0 Pin Value : 4572 
+[0m
+[0;32mI (20504) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20515) main: Analog 1 Pin Value : 4538 
+[0m
+[0;32mI (20522) main: Index 136, Red Peak Value : 4620 
+[0m
+[0;32mI (20530) main: Index 142, Infrared Peak Value : 4616 
+[0m
+[0;32mI (20540) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20551) main: Analog 0 Pin Value : 4541 
+[0m
+[0;32mI (20559) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20570) main: Analog 1 Pin Value : 4599 
+[0m
+[0;32mI (20577) main: Index 143, Infrared Trough Value : 4538 
+[0m
+[0;32mI (20587) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20598) main: Analog 0 Pin Value : 4540 
+[0m
+[0;32mI (20605) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20617) main: Analog 1 Pin Value : 4585 
+[0m
+[0;32mI (20624) main: Index 143, Infrared Peak Value : 4599 
+[0m
+[0;32mI (20634) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20644) main: Analog 0 Pin Value : 4613 
+[0m
+[0;32mI (20652) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20663) main: Analog 1 Pin Value : 4567 
+[0m
+[0;32mI (20670) main: Index 137, Red Trough Value : 4540 
+[0m
+[0;32mI (20680) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20690) main: Analog 0 Pin Value : 4612 
+[0m
+[0;32mI (20698) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20709) main: Analog 1 Pin Value : 4638 
+[0m
+[0;32mI (20716) main: Index 137, Red Peak Value : 4613 
+[0m
+[0;32mI (20725) main: Index 144, Infrared Trough Value : 4567 
+[0m
+[0;32mI (20735) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20746) main: Analog 0 Pin Value : 4563 
+[0m
+[0;32mI (20753) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20765) main: Analog 1 Pin Value : 4536 
+[0m
+[0;32mI (20771) main: Index 144, Infrared Peak Value : 4638 
+[0m
+[0;32mI (20781) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20792) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (20799) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20811) main: Analog 1 Pin Value : 4610 
+[0m
+[0;32mI (20818) main: Index 138, Red Trough Value : 4563 
+[0m
+[0;32mI (20826) main: Index 145, Infrared Trough Value : 4536 
+[0m
+[0;32mI (20837) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20848) main: Analog 0 Pin Value : 4505 
+[0m
+[0;32mI (20855) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20867) main: Analog 1 Pin Value : 4566 
+[0m
+[0;32mI (20873) main: Index 138, Red Peak Value : 4627 
+[0m
+[0;32mI (20882) main: Index 145, Infrared Peak Value : 4610 
+[0m
+[0;32mI (20892) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20903) main: Analog 0 Pin Value : 4558 
+[0m
+[0;32mI (20910) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20922) main: Analog 1 Pin Value : 4613 
+[0m
+[0;32mI (20928) main: Index 139, Red Trough Value : 4505 
+[0m
+[0;32mI (20937) main: Index 146, Infrared Trough Value : 4566 
+[0m
+[0;32mI (20947) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20958) main: Analog 0 Pin Value : 4627 
+[0m
+[0;32mI (20965) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (20977) main: Analog 1 Pin Value : 4622 
+[0m
+[0;32mI (20984) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (20995) main: Analog 0 Pin Value : 4579 
+[0m
+[0;32mI (21003) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21014) main: Analog 1 Pin Value : 4546 
+[0m
+[0;32mI (21021) main: Index 139, Red Peak Value : 4627 
+[0m
+[0;32mI (21029) main: Index 146, Infrared Peak Value : 4622 
+[0m
+[0;32mI (21039) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21050) main: Analog 0 Pin Value : 4544 
+[0m
+[0;32mI (21058) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21069) main: Analog 1 Pin Value : 4598 
+[0m
+[0;32mI (21076) main: Index 147, Infrared Trough Value : 4546 
+[0m
+[0;32mI (21086) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21097) main: Analog 0 Pin Value : 4542 
+[0m
+[0;32mI (21104) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21116) main: Analog 1 Pin Value : 4579 
+[0m
+[0;32mI (21123) main: Index 147, Infrared Peak Value : 4598 
+[0m
+[0;32mI (21133) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21144) main: Analog 0 Pin Value : 4622 
+[0m
+[0;32mI (21151) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21162) main: Analog 1 Pin Value : 4583 
+[0m
+[0;32mI (21169) main: Index 140, Red Trough Value : 4542 
+[0m
+[0;32mI (21178) main: Index 148, Infrared Trough Value : 4579 
+[0m
+[0;32mI (21188) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21199) main: Analog 0 Pin Value : 4534 
+[0m
+[0;32mI (21206) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21218) main: Analog 1 Pin Value : 4584 
+[0m
+[0;32mI (21225) main: Index 140, Red Peak Value : 4622 
+[0m
+[0;32mI (21234) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21245) main: Analog 0 Pin Value : 4601 
+[0m
+[0;32mI (21252) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21264) main: Analog 1 Pin Value : 4538 
+[0m
+[0;32mI (21270) main: Index 141, Red Trough Value : 4534 
+[0m
+[0;32mI (21279) main: Index 148, Infrared Peak Value : 4584 
+[0m
+[0;32mI (21289) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21301) main: Analog 0 Pin Value : 4535 
+[0m
+[0;32mI (21308) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21320) main: Analog 1 Pin Value : 4595 
+[0m
+[0;32mI (21326) main: Index 141, Red Peak Value : 4601 
+[0m
+[0;32mI (21335) main: Index 149, Infrared Trough Value : 4538 
+[0m
+[0;32mI (21345) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21356) main: Analog 0 Pin Value : 4578 
+[0m
+[0;32mI (21363) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21375) main: Analog 1 Pin Value : 4658 
+[0m
+[0;32mI (21382) main: Index 142, Red Trough Value : 4535 
+[0m
+[0;32mI (21391) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21402) main: Analog 0 Pin Value : 4548 
+[0m
+[0;32mI (21409) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21421) main: Analog 1 Pin Value : 4602 
+[0m
+[0;32mI (21427) main: Index 142, Red Peak Value : 4578 
+[0m
+[0;32mI (21436) main: Index 149, Infrared Peak Value : 4658 
+[0m
+[0;32mI (21446) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21457) main: Analog 0 Pin Value : 4619 
+[0m
+[0;32mI (21464) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21476) main: Analog 1 Pin Value : 4637 
+[0m
+[0;32mI (21482) main: Index 143, Red Trough Value : 4548 
+[0m
+[0;32mI (21491) main: Index 150, Infrared Trough Value : 4602 
+[0m
+[0;32mI (21501) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21512) main: Analog 0 Pin Value : 4546 
+[0m
+[0;32mI (21520) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21531) main: Analog 1 Pin Value : 4542 
+[0m
+[0;32mI (21538) main: Index 143, Red Peak Value : 4619 
+[0m
+[0;32mI (21546) main: Index 150, Infrared Peak Value : 4637 
+[0m
+[0;32mI (21556) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21567) main: Analog 0 Pin Value : 4544 
+[0m
+[0;32mI (21575) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21586) main: Analog 1 Pin Value : 4601 
+[0m
+[0;32mI (21593) main: Index 151, Infrared Trough Value : 4542 
+[0m
+[0;32mI (21603) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21614) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (21621) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21633) main: Analog 1 Pin Value : 4575 
+[0m
+[0;32mI (21640) main: Index 151, Infrared Peak Value : 4601 
+[0m
+[0;32mI (21650) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21661) main: Analog 0 Pin Value : 4623 
+[0m
+[0;32mI (21668) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21679) main: Analog 1 Pin Value : 4568 
+[0m
+[0;32mI (21686) main: Index 144, Red Trough Value : 4536 
+[0m
+[0;32mI (21696) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21707) main: Analog 0 Pin Value : 4624 
+[0m
+[0;32mI (21714) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21725) main: Analog 1 Pin Value : 4635 
+[0m
+[0;32mI (21732) main: Index 152, Infrared Trough Value : 4568 
+[0m
+[0;32mI (21742) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21753) main: Analog 0 Pin Value : 4557 
+[0m
+[0;32mI (21761) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21772) main: Analog 1 Pin Value : 4619 
+[0m
+[0;32mI (21779) main: Index 144, Red Peak Value : 4624 
+[0m
+[0;32mI (21787) main: Index 152, Infrared Peak Value : 4635 
+[0m
+[0;32mI (21797) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21808) main: Analog 0 Pin Value : 4633 
+[0m
+[0;32mI (21816) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21827) main: Analog 1 Pin Value : 4608 
+[0m
+[0;32mI (21834) main: Index 145, Red Trough Value : 4557 
+[0m
+[0;32mI (21843) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21854) main: Analog 0 Pin Value : 4584 
+[0m
+[0;32mI (21862) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21873) main: Analog 1 Pin Value : 4641 
+[0m
+[0;32mI (21880) main: Index 145, Red Peak Value : 4633 
+[0m
+[0;32mI (21888) main: Index 153, Infrared Trough Value : 4608 
+[0m
+[0;32mI (21899) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21910) main: Analog 0 Pin Value : 4610 
+[0m
+[0;32mI (21917) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21928) main: Analog 1 Pin Value : 4579 
+[0m
+[0;32mI (21935) main: Index 146, Red Trough Value : 4584 
+[0m
+[0;32mI (21944) main: Index 153, Infrared Peak Value : 4641 
+[0m
+[0;32mI (21954) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (21965) main: Analog 0 Pin Value : 4526 
+[0m
+[0;32mI (21972) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (21984) main: Analog 1 Pin Value : 4583 
+[0m
+[0;32mI (21990) main: Index 146, Red Peak Value : 4610 
+[0m
+[0;32mI (21999) main: Index 154, Infrared Trough Value : 4579 
+[0m
+[0;32mI (22009) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22020) main: Analog 0 Pin Value : 4574 
+[0m
+[0;32mI (22027) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22039) main: Analog 1 Pin Value : 4619 
+[0m
+[0;32mI (22046) main: Index 147, Red Trough Value : 4526 
+[0m
+[0;32mI (22055) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22066) main: Analog 0 Pin Value : 4541 
+[0m
+[0;32mI (22073) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22085) main: Analog 1 Pin Value : 4597 
+[0m
+[0;32mI (22092) main: Index 147, Red Peak Value : 4574 
+[0m
+[0;32mI (22100) main: Index 154, Infrared Peak Value : 4619 
+[0m
+[0;32mI (22110) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22121) main: Analog 0 Pin Value : 4585 
+[0m
+[0;32mI (22128) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22140) main: Analog 1 Pin Value : 4648 
+[0m
+[0;32mI (22146) main: Index 148, Red Trough Value : 4541 
+[0m
+[0;32mI (22155) main: Index 155, Infrared Trough Value : 4597 
+[0m
+[0;32mI (22165) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22176) main: Analog 0 Pin Value : 4594 
+[0m
+[0;32mI (22184) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22195) main: Analog 1 Pin Value : 4560 
+[0m
+[0;32mI (22202) main: Index 155, Infrared Peak Value : 4648 
+[0m
+[0;32mI (22212) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22223) main: Analog 0 Pin Value : 4632 
+[0m
+[0;32mI (22230) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22242) main: Analog 1 Pin Value : 4637 
+[0m
+[0;32mI (22248) main: Index 156, Infrared Trough Value : 4560 
+[0m
+[0;32mI (22259) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22270) main: Analog 0 Pin Value : 4578 
+[0m
+[0;32mI (22277) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22288) main: Analog 1 Pin Value : 4625 
+[0m
+[0;32mI (22295) main: Index 148, Red Peak Value : 4632 
+[0m
+[0;32mI (22304) main: Index 156, Infrared Peak Value : 4637 
+[0m
+[0;32mI (22314) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22325) main: Analog 0 Pin Value : 4620 
+[0m
+[0;32mI (22332) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22343) main: Analog 1 Pin Value : 4612 
+[0m
+[0;32mI (22350) main: Index 149, Red Trough Value : 4578 
+[0m
+[0;32mI (22360) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22371) main: Analog 0 Pin Value : 4582 
+[0m
+[0;32mI (22378) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22390) main: Analog 1 Pin Value : 4646 
+[0m
+[0;32mI (22396) main: Index 149, Red Peak Value : 4620 
+[0m
+[0;32mI (22405) main: Index 157, Infrared Trough Value : 4612 
+[0m
+[0;32mI (22415) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22426) main: Analog 0 Pin Value : 4597 
+[0m
+[0;32mI (22433) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22445) main: Analog 1 Pin Value : 4565 
+[0m
+[0;32mI (22451) main: Index 150, Red Trough Value : 4582 
+[0m
+[0;32mI (22460) main: Index 157, Infrared Peak Value : 4646 
+[0m
+[0;32mI (22470) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22481) main: Analog 0 Pin Value : 4523 
+[0m
+[0;32mI (22488) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22500) main: Analog 1 Pin Value : 4580 
+[0m
+[0;32mI (22506) main: Index 150, Red Peak Value : 4597 
+[0m
+[0;32mI (22515) main: Index 158, Infrared Trough Value : 4565 
+[0m
+[0;32mI (22525) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22536) main: Analog 0 Pin Value : 4575 
+[0m
+[0;32mI (22543) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22555) main: Analog 1 Pin Value : 4634 
+[0m
+[0;32mI (22562) main: Index 151, Red Trough Value : 4523 
+[0m
+[0;32mI (22572) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22583) main: Analog 0 Pin Value : 4535 
+[0m
+[0;32mI (22590) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22602) main: Analog 1 Pin Value : 4591 
+[0m
+[0;32mI (22608) main: Index 151, Red Peak Value : 4575 
+[0m
+[0;32mI (22617) main: Index 158, Infrared Peak Value : 4634 
+[0m
+[0;32mI (22627) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22638) main: Analog 0 Pin Value : 4585 
+[0m
+[0;32mI (22645) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22657) main: Analog 1 Pin Value : 4649 
+[0m
+[0;32mI (22663) main: Index 152, Red Trough Value : 4535 
+[0m
+[0;32mI (22672) main: Index 159, Infrared Trough Value : 4591 
+[0m
+[0;32mI (22682) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22693) main: Analog 0 Pin Value : 4571 
+[0m
+[0;32mI (22701) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22712) main: Analog 1 Pin Value : 4557 
+[0m
+[0;32mI (22719) main: Index 152, Red Peak Value : 4585 
+[0m
+[0;32mI (22727) main: Index 159, Infrared Peak Value : 4649 
+[0m
+[0;32mI (22737) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22748) main: Analog 0 Pin Value : 4536 
+[0m
+[0;32mI (22756) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22767) main: Analog 1 Pin Value : 4590 
+[0m
+[0;32mI (22774) main: Index 160, Infrared Trough Value : 4557 
+[0m
+[0;32mI (22784) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22795) main: Analog 0 Pin Value : 4561 
+[0m
+[0;32mI (22802) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22814) main: Analog 1 Pin Value : 4560 
+[0m
+[0;32mI (22821) main: Index 153, Red Trough Value : 4536 
+[0m
+[0;32mI (22829) main: Index 160, Infrared Peak Value : 4590 
+[0m
+[0;32mI (22839) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22850) main: Analog 0 Pin Value : 4553 
+[0m
+[0;32mI (22858) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22869) main: Analog 1 Pin Value : 4607 
+[0m
+[0;32mI (22876) main: Index 153, Red Peak Value : 4561 
+[0m
+[0;32mI (22884) main: Index 161, Infrared Trough Value : 4560 
+[0m
+[0;32mI (22895) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22906) main: Analog 0 Pin Value : 4610 
+[0m
+[0;32mI (22913) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22924) main: Analog 1 Pin Value : 4635 
+[0m
+[0;32mI (22931) main: Index 154, Red Trough Value : 4553 
+[0m
+[0;32mI (22941) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (22952) main: Analog 0 Pin Value : 4565 
+[0m
+[0;32mI (22959) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (22971) main: Analog 1 Pin Value : 4600 
+[0m
+[0;32mI (22977) main: Index 154, Red Peak Value : 4610 
+[0m
+[0;32mI (22986) main: Index 161, Infrared Peak Value : 4635 
+[0m
+[0;32mI (22996) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23007) main: Analog 0 Pin Value : 4628 
+[0m
+[0;32mI (23014) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23025) main: Analog 1 Pin Value : 4624 
+[0m
+[0;32mI (23032) main: Index 155, Red Trough Value : 4565 
+[0m
+[0;32mI (23041) main: Index 162, Infrared Trough Value : 4600 
+[0m
+[0;32mI (23051) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23062) main: Analog 0 Pin Value : 4492 
+[0m
+[0;32mI (23069) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23081) main: Analog 1 Pin Value : 4565 
+[0m
+[0;32mI (23087) main: Index 155, Red Peak Value : 4628 
+[0m
+[0;32mI (23096) main: Index 162, Infrared Peak Value : 4624 
+[0m
+[0;32mI (23106) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23117) main: Analog 0 Pin Value : 4558 
+[0m
+[0;32mI (23124) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23136) main: Analog 1 Pin Value : 4617 
+[0m
+[0;32mI (23142) main: Index 156, Red Trough Value : 4492 
+[0m
+[0;32mI (23151) main: Index 163, Infrared Trough Value : 4565 
+[0m
+[0;32mI (23161) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23172) main: Analog 0 Pin Value : 4628 
+[0m
+[0;32mI (23180) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23191) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (23199) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23210) main: Analog 0 Pin Value : 4579 
+[0m
+[0;32mI (23217) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23229) main: Analog 1 Pin Value : 4556 
+[0m
+[0;32mI (23235) main: Index 156, Red Peak Value : 4628 
+[0m
+[0;32mI (23244) main: Index 163, Infrared Peak Value : 4631 
+[0m
+[0;32mI (23254) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23265) main: Analog 0 Pin Value : 4542 
+[0m
+[0;32mI (23272) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23284) main: Analog 1 Pin Value : 4588 
+[0m
+[0;32mI (23290) main: Index 164, Infrared Trough Value : 4556 
+[0m
+[0;32mI (23300) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23311) main: Analog 0 Pin Value : 4560 
+[0m
+[0;32mI (23319) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23330) main: Analog 1 Pin Value : 4575 
+[0m
+[0;32mI (23337) main: Index 157, Red Trough Value : 4542 
+[0m
+[0;32mI (23346) main: Index 164, Infrared Peak Value : 4588 
+[0m
+[0;32mI (23356) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23367) main: Analog 0 Pin Value : 4557 
+[0m
+[0;32mI (23374) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23385) main: Analog 1 Pin Value : 4606 
+[0m
+[0;32mI (23392) main: Index 157, Red Peak Value : 4560 
+[0m
+[0;32mI (23401) main: Index 165, Infrared Trough Value : 4575 
+[0m
+[0;32mI (23411) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23422) main: Analog 0 Pin Value : 4626 
+[0m
+[0;32mI (23429) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23441) main: Analog 1 Pin Value : 4628 
+[0m
+[0;32mI (23447) main: Index 158, Red Trough Value : 4557 
+[0m
+[0;32mI (23457) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23468) main: Analog 0 Pin Value : 4576 
+[0m
+[0;32mI (23475) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23487) main: Analog 1 Pin Value : 4618 
+[0m
+[0;32mI (23493) main: Index 158, Red Peak Value : 4626 
+[0m
+[0;32mI (23502) main: Index 165, Infrared Peak Value : 4628 
+[0m
+[0;32mI (23512) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23523) main: Analog 0 Pin Value : 4629 
+[0m
+[0;32mI (23530) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23542) main: Analog 1 Pin Value : 4621 
+[0m
+[0;32mI (23548) main: Index 159, Red Trough Value : 4576 
+[0m
+[0;32mI (23557) main: Index 166, Infrared Trough Value : 4618 
+[0m
+[0;32mI (23567) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23578) main: Analog 0 Pin Value : 4488 
+[0m
+[0;32mI (23586) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23597) main: Analog 1 Pin Value : 4578 
+[0m
+[0;32mI (23604) main: Index 159, Red Peak Value : 4629 
+[0m
+[0;32mI (23612) main: Index 166, Infrared Peak Value : 4621 
+[0m
+[0;32mI (23622) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23633) main: Analog 0 Pin Value : 4564 
+[0m
+[0;32mI (23641) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23652) main: Analog 1 Pin Value : 4609 
+[0m
+[0;32mI (23659) main: Index 160, Red Trough Value : 4488 
+[0m
+[0;32mI (23668) main: Index 167, Infrared Trough Value : 4578 
+[0m
+[0;32mI (23678) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23689) main: Analog 0 Pin Value : 4624 
+[0m
+[0;32mI (23696) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23708) main: Analog 1 Pin Value : 4628 
+[0m
+[0;32mI (23715) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23726) main: Analog 0 Pin Value : 4573 
+[0m
+[0;32mI (23733) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23745) main: Analog 1 Pin Value : 4541 
+[0m
+[0;32mI (23752) main: Index 160, Red Peak Value : 4624 
+[0m
+[0;32mI (23760) main: Index 167, Infrared Peak Value : 4628 
+[0m
+[0;32mI (23770) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23781) main: Analog 0 Pin Value : 4540 
+[0m
+[0;32mI (23788) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23800) main: Analog 1 Pin Value : 4589 
+[0m
+[0;32mI (23807) main: Index 168, Infrared Trough Value : 4541 
+[0m
+[0;32mI (23817) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23828) main: Analog 0 Pin Value : 4545 
+[0m
+[0;32mI (23835) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23847) main: Analog 1 Pin Value : 4570 
+[0m
+[0;32mI (23853) main: Index 161, Red Trough Value : 4540 
+[0m
+[0;32mI (23862) main: Index 168, Infrared Peak Value : 4589 
+[0m
+[0;32mI (23872) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23883) main: Analog 0 Pin Value : 4553 
+[0m
+[0;32mI (23890) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23902) main: Analog 1 Pin Value : 4614 
+[0m
+[0;32mI (23908) main: Index 169, Infrared Trough Value : 4570 
+[0m
+[0;32mI (23919) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23930) main: Analog 0 Pin Value : 4541 
+[0m
+[0;32mI (23937) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (23948) main: Analog 1 Pin Value : 4592 
+[0m
+[0;32mI (23955) main: Index 161, Red Peak Value : 4553 
+[0m
+[0;32mI (23964) main: Index 169, Infrared Peak Value : 4614 
+[0m
+[0;32mI (23974) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (23985) main: Analog 0 Pin Value : 4563 
+[0m
+[0;32mI (23992) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24003) main: Analog 1 Pin Value : 4622 
+[0m
+[0;32mI (24010) main: Index 162, Red Trough Value : 4541 
+[0m
+[0;32mI (24019) main: Index 170, Infrared Trough Value : 4592 
+[0m
+[0;32mI (24029) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24040) main: Analog 0 Pin Value : 4612 
+[0m
+[0;32mI (24047) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24059) main: Analog 1 Pin Value : 4591 
+[0m
+[0;32mI (24066) main: Index 170, Infrared Peak Value : 4622 
+[0m
+[0;32mI (24076) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24087) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (24094) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24105) main: Analog 1 Pin Value : 4634 
+[0m
+[0;32mI (24112) main: Index 171, Infrared Trough Value : 4591 
+[0m
+[0;32mI (24123) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24134) main: Analog 0 Pin Value : 4559 
+[0m
+[0;32mI (24141) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24153) main: Analog 1 Pin Value : 4617 
+[0m
+[0;32mI (24159) main: Index 162, Red Peak Value : 4616 
+[0m
+[0;32mI (24168) main: Index 171, Infrared Peak Value : 4634 
+[0m
+[0;32mI (24178) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24189) main: Analog 0 Pin Value : 4635 
+[0m
+[0;32mI (24196) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24208) main: Analog 1 Pin Value : 4612 
+[0m
+[0;32mI (24214) main: Index 163, Red Trough Value : 4559 
+[0m
+[0;32mI (24224) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24235) main: Analog 0 Pin Value : 4564 
+[0m
+[0;32mI (24242) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24254) main: Analog 1 Pin Value : 4631 
+[0m
+[0;32mI (24260) main: Index 163, Red Peak Value : 4635 
+[0m
+[0;32mI (24269) main: Index 172, Infrared Trough Value : 4612 
+[0m
+[0;32mI (24279) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24290) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (24297) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24309) main: Analog 1 Pin Value : 4579 
+[0m
+[0;32mI (24316) main: Index 164, Red Trough Value : 4564 
+[0m
+[0;32mI (24325) main: Index 172, Infrared Peak Value : 4631 
+[0m
+[0;32mI (24334) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24345) main: Analog 0 Pin Value : 4514 
+[0m
+[0;32mI (24353) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24364) main: Analog 1 Pin Value : 4572 
+[0m
+[0;32mI (24371) main: Index 164, Red Peak Value : 4616 
+[0m
+[0;32mI (24380) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24391) main: Analog 0 Pin Value : 4616 
+[0m
+[0;32mI (24398) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24410) main: Analog 1 Pin Value : 4549 
+[0m
+[0;32mI (24417) main: Index 165, Red Trough Value : 4514 
+[0m
+[0;32mI (24426) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24437) main: Analog 0 Pin Value : 4630 
+[0m
+[0;32mI (24445) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24456) main: Analog 1 Pin Value : 4629 
+[0m
+[0;32mI (24463) main: Index 173, Infrared Trough Value : 4549 
+[0m
+[0;32mI (24473) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24484) main: Analog 0 Pin Value : 4562 
+[0m
+[0;32mI (24491) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24503) main: Analog 1 Pin Value : 4619 
+[0m
+[0;32mI (24509) main: Index 165, Red Peak Value : 4630 
+[0m
+[0;32mI (24518) main: Index 173, Infrared Peak Value : 4629 
+[0m
+[0;32mI (24528) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24539) main: Analog 0 Pin Value : 4624 
+[0m
+[0;32mI (24546) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24558) main: Analog 1 Pin Value : 4618 
+[0m
+[0;32mI (24564) main: Index 166, Red Trough Value : 4562 
+[0m
+[0;32mI (24574) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24585) main: Analog 0 Pin Value : 4573 
+[0m
+[0;32mI (24592) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24604) main: Analog 1 Pin Value : 4652 
+[0m
+[0;32mI (24610) main: Index 166, Red Peak Value : 4624 
+[0m
+[0;32mI (24619) main: Index 174, Infrared Trough Value : 4618 
+[0m
+[0;32mI (24629) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24640) main: Analog 0 Pin Value : 4609 
+[0m
+[0;32mI (24647) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24659) main: Analog 1 Pin Value : 4569 
+[0m
+[0;32mI (24666) main: Index 167, Red Trough Value : 4573 
+[0m
+[0;32mI (24675) main: Index 174, Infrared Peak Value : 4652 
+[0m
+[0;32mI (24684) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24695) main: Analog 0 Pin Value : 4523 
+[0m
+[0;32mI (24703) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24714) main: Analog 1 Pin Value : 4580 
+[0m
+[0;32mI (24721) main: Index 167, Red Peak Value : 4609 
+[0m
+[0;32mI (24730) main: Index 175, Infrared Trough Value : 4569 
+[0m
+[0;32mI (24740) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24751) main: Analog 0 Pin Value : 4572 
+[0m
+[0;32mI (24758) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24770) main: Analog 1 Pin Value : 4628 
+[0m
+[0;32mI (24776) main: Index 168, Red Trough Value : 4523 
+[0m
+[0;32mI (24786) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24797) main: Analog 0 Pin Value : 4542 
+[0m
+[0;32mI (24804) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24816) main: Analog 1 Pin Value : 4599 
+[0m
+[0;32mI (24822) main: Index 168, Red Peak Value : 4572 
+[0m
+[0;32mI (24831) main: Index 175, Infrared Peak Value : 4628 
+[0m
+[0;32mI (24841) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24852) main: Analog 0 Pin Value : 4580 
+[0m
+[0;32mI (24859) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24871) main: Analog 1 Pin Value : 4654 
+[0m
+[0;32mI (24877) main: Index 169, Red Trough Value : 4542 
+[0m
+[0;32mI (24886) main: Index 176, Infrared Trough Value : 4599 
+[0m
+[0;32mI (24896) main: ADS1115 initialized for Red reading on Channel 0!
+[0m
+[0;32mI (24907) main: Analog 0 Pin Value : 4588 
+[0m
+[0;32mI (24915) main: ADS1115 initialized for Infrared Reading on Channel 1!
+[0m
+[0;32mI (24926) main: Analog 1 Pin Value : 4552 
+[0m
+[0;32mI (24933) main: Index 176, Infrared Peak Value : 4654 
+[0m
+[0;32mI (24942) main: The average peak is : 4565 [0m
+[0;32mI (24949) main: The average trough is : 4552 [0m
+[0;32mI (24957) main: The AC value is : 13 [0m
+[0;32mI (24964) main: The DC value is : 4558 [0m
+[0;32mI (24971) main: The average peak is : 4693 [0m
+[0;32mI (24978) main: The average trough is : 4505 [0m
+[0;32mI (24986) main: The AC value is : 188 [0m
+[0;32mI (24993) main: The DC value is : 4599 [0m
+[0;32mI (25000) main: RED AC : 13 [0m
+[0;32mI (25005) main: RED DC : 4558 [0m
+[0;32mI (25011) main: INFRARED AC : 188 [0m
+[0;32mI (25017) main: INFRARED DC : 4599 [0m
+[0;32mI (25024) main: Average sample number difference : 35 [0m
+[0;32mI (25033) main: R :  
+[0m
+[0;32mI (25037) main: SPO2 : 113 % 
+[0m
+[0;32mI (25043) main: Pulse Rate : 37 bpm 
+[0m
+ 
